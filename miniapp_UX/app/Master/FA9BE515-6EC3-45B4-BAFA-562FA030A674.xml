@@ -1,0 +1,18 @@
+﻿<master version="5.3" minAllowVersion="5.3" ID="FA9BE515-6EC3-45B4-BAFA-562FA030A674">
+  <controls>
+    <control controlID="1CB372B5-C10D-4558-A3A5-D4EED87CFD16" controlTypeID="Master" x="6" y="195" w="373" h="1" zOrder="20" masterID="FA9BE515-6EC3-45B4-BAFA-562FA030A674">
+      <groupChildrenDescriptors>
+        <control controlID="A4C61446-412B-4A8C-B8AC-137480C344B5" controlTypeID="Line" x="0" y="0" w="373" h="1" zOrder="0">
+          <color>4292730333</color>
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <controlPoint>(186,0)</controlPoint>
+          <startPoint>(0,0)</startPoint>
+          <endPoint>(373,0)</endPoint>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</master>

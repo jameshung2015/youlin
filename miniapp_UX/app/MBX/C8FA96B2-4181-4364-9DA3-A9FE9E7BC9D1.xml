@@ -1,0 +1,38 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="C8FA96B2-4181-4364-9DA3-A9FE9E7BC9D1" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
+  <controls controlCount="3">
+    <control controlID="160E12C8-7674-49CB-9B58-3B6F59066336" controlTypeID="Label" x="138" y="41" w="97" h="24" zOrder="0">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>XX%E5%85%AC%E7%BA%A6%E6%97%A5%E5%8E%86</text>
+      <textSize>18</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B4297316-75D8-4EF0-A39F-CBD405F65F48" controlTypeID="Icon" x="8" y="44" w="18" h="18" zOrder="1">
+      <color>4281545523</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
+    </control>
+    <control controlID="E255486A-9364-4AED-B8DB-09B86618C6B2" controlTypeID="Icon" x="349" y="44" w="18" h="18" zOrder="2">
+      <color>4281545523</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61963</iconCode>
+      </icon>
+      <URL>40E39A09158BEC58EE5C5769A953E8C0.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

@@ -1,0 +1,106 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="A1A65C9C-48D1-4585-B8AF-233D2DFBF2E5" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="8">
+    <control controlID="B6D47A51-F27F-45A0-8278-43CF6191D3F1" controlTypeID="Tab" x="0" y="95" w="375" h="669" zOrder="0">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A1A65C9C-48D1-4585-B8AF-233D2DFBF2E5" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%AF%8F%E5%91%A8%E6%B4%BB%E5%8A%A8">
+          <area shape="0" alt="" ID="{5714070D-4B1F-4B2D-8151-5A72FEC44DC3}" coords="(0,0,71,18)"/>
+        </link>
+        <link targetPageID="3B2EE374-FC8C-46FE-81C4-75D4FEBFF3A8" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%8A%93%E9%98%84">
+          <area shape="0" alt="" ID="{9F8B7903-CFCF-4782-80DB-D2AA590139D7}" coords="(70,0,113,18)"/>
+        </link>
+        <link targetPageID="7C30327F-0B92-4A02-AD7A-30015D4350F5" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%B4%AD%E4%B9%B0%E6%97%A5%E5%8E%86">
+          <area shape="0" alt="" ID="{62C1E897-7C13-42B3-95DD-2B3FE89C25D2}" coords="(112,0,184,18)"/>
+        </link>
+      </links>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E6%AF%8F%E5%91%A8%E6%B4%BB%E5%8A%A8%2C%E6%8A%93%E9%98%84%2C%E8%B4%AD%E4%B9%B0%E6%97%A5%E5%8E%86</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+    </control>
+    <control controlID="803E9784-E4E0-4AB3-9261-2C638595E187" controlTypeID="Shape" x="0" y="764" w="375" h="48" zOrder="1">
+      <borderColor>4293190884</borderColor>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmTop]</borderMode>
+    </control>
+    <control controlID="69C60EE5-D8AB-45D9-9540-D74E2EC65A19" controlTypeID="Icon" x="59" y="774" w="24" h="24" zOrder="2">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="44D2F1B0-8C1F-478F-8308-57D673B7646F" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%91%E7%9A%84%E5%AE%B6(%E8%AE%AF%E6%81%AF%E6%B5%81%EF%BC%89">
+          <area shape="0" alt="" ID="{1758D544-BBE9-4673-BCD6-2CDDE0A42A75}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61970</iconCode>
+      </icon>
+      <URL>C02AE8E6E300C489E9473523EA2A95F1.svg</URL>
+    </control>
+    <control controlID="B77A343D-1E21-4633-B8FB-EB46BCC45A54" controlTypeID="Icon" x="176" y="774" w="24" h="24" zOrder="3">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="2B232BF4-26EF-45CE-BAE8-D114739DD538" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%8F%91%E7%8E%B0%E9%A1%B5">
+          <area shape="0" alt="" ID="{0252F64F-D335-45E1-9F22-BBFBB86C03F1}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62197</iconCode>
+      </icon>
+      <URL>3A3CD3DB2FAE85FFEF2A8996E634645D.svg</URL>
+    </control>
+    <control controlID="1E856DA8-F053-4AFF-AD20-CC9E29976856" controlTypeID="Icon" x="290" y="774" w="24" h="24" zOrder="4">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="D71F62CA-54BB-4E8F-82D1-BCDE367C64B4" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%AE%BE%E7%BD%AE">
+          <area shape="0" alt="" ID="{E0DF9522-52DD-486E-87CB-37F61AEBA530}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62199</iconCode>
+      </icon>
+      <URL>DED0E6A8242D8DE296EBCBE2FFA15EDA.svg</URL>
+    </control>
+    <control controlID="A96EB9CE-6FAD-49C1-8789-3108E1957FEF" controlTypeID="Label" x="138" y="41" w="97" h="24" zOrder="5">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>XX%E5%85%AC%E7%BA%A6%E6%97%A5%E5%8E%86</text>
+      <textSize>18</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="A0F5749B-EF37-4A53-AAA6-2FA28F6BF8FA" controlTypeID="Icon" x="8" y="44" w="18" h="18" zOrder="6">
+      <color>4281545523</color>
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="2B232BF4-26EF-45CE-BAE8-D114739DD538" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%8F%91%E7%8E%B0%E9%A1%B5">
+          <area shape="0" alt="" ID="{0A405C3E-AB8A-4648-86B2-2C94A5567CB0}" coords="(0,0,18,18)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
+    </control>
+    <control controlID="DF62B539-9DBE-4C01-8424-7E676A573F5B" controlTypeID="Icon" x="349" y="44" w="18" h="18" zOrder="7">
+      <color>4281545523</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61963</iconCode>
+      </icon>
+      <URL>40E39A09158BEC58EE5C5769A953E8C0.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

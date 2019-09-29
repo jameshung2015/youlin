@@ -1,0 +1,97 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="BDEC1866-1BB8-4158-94E9-D501434AA18D" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="8">
+    <control controlID="1C99CB15-083E-4AC3-8A84-E9A90F36756D" controlTypeID="Label" x="138" y="41" w="97" h="24" zOrder="0">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>XX%E5%85%AC%E7%BA%A6%E6%97%A5%E5%8E%86</text>
+      <textSize>18</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D4E6AC2C-5667-4746-AF30-D5C6B1B3EE95" controlTypeID="Icon" x="8" y="44" w="18" h="18" zOrder="1">
+      <color>4281545523</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
+    </control>
+    <control controlID="5BF3A642-56EE-43D3-8F21-25985AF63365" controlTypeID="Icon" x="349" y="44" w="18" h="18" zOrder="2">
+      <color>4281545523</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61963</iconCode>
+      </icon>
+      <URL>40E39A09158BEC58EE5C5769A953E8C0.svg</URL>
+    </control>
+    <control controlID="F0822CDD-4296-4C0E-B6A6-848F9E5D2AA4" controlTypeID="Shape" x="0" y="764" w="375" h="48" zOrder="3">
+      <borderColor>4293190884</borderColor>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmTop]</borderMode>
+    </control>
+    <control controlID="C123CF58-75E5-4868-9810-3A02D78B1508" controlTypeID="Icon" x="130" y="774" w="24" h="24" zOrder="4">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="BDEC1866-1BB8-4158-94E9-D501434AA18D" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%89%93%E5%8D%A1">
+          <area shape="0" alt="" ID="{C454CD16-F1CF-4B63-8D6A-95AB31895C30}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61984</iconCode>
+      </icon>
+      <URL>9C7ADC66F44EE0B51F76005861E4E569.svg</URL>
+    </control>
+    <control controlID="B3C888F8-5765-4FE6-A73D-6400442A8E58" controlTypeID="Icon" x="40" y="774" w="24" h="24" zOrder="5">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="44D2F1B0-8C1F-478F-8308-57D673B7646F" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%91%E7%9A%84%E5%AE%B6(%E8%AE%AF%E6%81%AF%E6%B5%81%EF%BC%89">
+          <area shape="0" alt="" ID="{1758D544-BBE9-4673-BCD6-2CDDE0A42A75}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61970</iconCode>
+      </icon>
+      <URL>C02AE8E6E300C489E9473523EA2A95F1.svg</URL>
+    </control>
+    <control controlID="AF5A7083-0A9D-4075-A80D-4AECD3F963A0" controlTypeID="Icon" x="220" y="774" w="24" h="24" zOrder="6">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="2B232BF4-26EF-45CE-BAE8-D114739DD538" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%8F%91%E7%8E%B0%E9%A1%B5">
+          <area shape="0" alt="" ID="{0252F64F-D335-45E1-9F22-BBFBB86C03F1}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62197</iconCode>
+      </icon>
+      <URL>3A3CD3DB2FAE85FFEF2A8996E634645D.svg</URL>
+    </control>
+    <control controlID="24BE4B26-49E4-4779-9684-289ED4980698" controlTypeID="Icon" x="310" y="774" w="24" h="24" zOrder="7">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="D71F62CA-54BB-4E8F-82D1-BCDE367C64B4" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%AE%BE%E7%BD%AE">
+          <area shape="0" alt="" ID="{E0DF9522-52DD-486E-87CB-37F61AEBA530}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62199</iconCode>
+      </icon>
+      <URL>DED0E6A8242D8DE296EBCBE2FFA15EDA.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

@@ -1,0 +1,24 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="45ED33B1-9C4B-49CD-AC97-7327D23A03AD" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="2">
+    <control controlID="18C4C42D-D8E0-42B3-9B55-FAF81307FF49" controlTypeID="Image" x="0" y="0" w="375" h="812" zOrder="0">
+      <URL>5000BFF1F18D9F790E068E6708D6D295.jpg</URL>
+    </control>
+    <control controlID="EB8FE8D9-60D3-4695-8044-4B43055CF733" controlTypeID="Button" x="298" y="47" w="67" h="35" zOrder="1">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="AD7346C6-E726-4176-B34D-C3A911B8B26C" linkType="ltPageLink" isApplyIncludePage="False" title="%E7%BC%96%E8%BE%91%E5%BF%83%E6%84%BF%E5%8D%95">
+          <area shape="0" alt="" ID="{322DEA72-A637-49B4-96FE-DC364495B6F1}" coords="(0,0,67,35)"/>
+        </link>
+      </links>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E5%AE%8C%E6%88%90</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

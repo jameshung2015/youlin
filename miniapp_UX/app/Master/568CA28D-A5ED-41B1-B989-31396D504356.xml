@@ -1,0 +1,14 @@
+﻿<master version="5.3" minAllowVersion="5.3" ID="568CA28D-A5ED-41B1-B989-31396D504356">
+  <controls>
+    <control controlID="32376E55-0B81-4B38-A168-A737FEB47827" controlTypeID="Master" x="16" y="99" w="64" h="64" zOrder="18" masterID="568CA28D-A5ED-41B1-B989-31396D504356">
+      <groupChildrenDescriptors>
+        <control controlID="92668113-CF0D-4149-B20B-16733D84CD93" controlTypeID="Image" x="0" y="0" w="64" h="64" zOrder="0">
+          <radius>10</radius>
+          <radiusIsPercent>True</radiusIsPercent>
+          <URL>295E2F26CD3643E277B72FD294B1F642.png</URL>
+          <fitMode>fmFill</fitMode>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</master>

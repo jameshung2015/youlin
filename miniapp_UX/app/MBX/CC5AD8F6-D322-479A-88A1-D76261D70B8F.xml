@@ -1,0 +1,39 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="CC5AD8F6-D322-479A-88A1-D76261D70B8F" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
+  <controls controlCount="3">
+    <control controlID="95A7AE20-A473-4158-A5A4-6BE1D7FC24EA" controlTypeID="Image" x="0" y="0" w="375" h="648" zOrder="0">
+      <URL>F309B7C52F49BBF050361D4A93DC9083.png</URL>
+    </control>
+    <control controlID="100482CC-2C9A-4084-833A-07C4FE5CCA4F" controlTypeID="Button" x="18" y="648" w="339" h="48" zOrder="1">
+      <color>4294901760</color>
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="7C30327F-0B92-4A02-AD7A-30015D4350F5" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%B4%AD%E4%B9%B0%E6%97%A5%E5%8E%86">
+          <area shape="0" alt="" ID="{A0899372-7F00-4D78-8E72-F38577AF771A}" coords="(0,0,339,48)"/>
+        </link>
+      </links>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E6%8F%90%E4%BA%A4</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B204EC4C-B252-4801-862A-D074766F572D" controlTypeID="Icon" x="14" y="13" w="18" h="18" zOrder="2">
+      <color>4281545523</color>
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="7C30327F-0B92-4A02-AD7A-30015D4350F5" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%B4%AD%E4%B9%B0%E6%97%A5%E5%8E%86">
+          <area shape="0" alt="" ID="{0A405C3E-AB8A-4648-86B2-2C94A5567CB0}" coords="(0,0,18,18)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

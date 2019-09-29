@@ -1,0 +1,48 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="7C613522-3534-476C-97F8-E048EB2F7DE9" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="4">
+    <control controlID="F69F9E52-D15A-4EA4-A7F6-53E74909039A" controlTypeID="Label" x="138" y="41" w="72" h="24" zOrder="0">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>%E6%B4%BB%E5%8A%A8%E6%96%B9%E6%A1%88</text>
+      <textSize>18</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="24B71C22-0C1F-4AF9-B716-4CA7C6B68D50" controlTypeID="Icon" x="8" y="44" w="18" h="18" zOrder="1">
+      <color>4281545523</color>
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="2B232BF4-26EF-45CE-BAE8-D114739DD538" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%8F%91%E7%8E%B0%E9%A1%B5">
+          <area shape="0" alt="" ID="{8190DB02-7DF1-4941-AC2A-A64E8B9D603F}" coords="(0,0,18,18)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
+    </control>
+    <control controlID="E945A25A-51C8-40F2-9853-CB85936FB0A3" controlTypeID="Icon" x="349" y="44" w="18" h="18" zOrder="2">
+      <color>4281545523</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61963</iconCode>
+      </icon>
+      <URL>40E39A09158BEC58EE5C5769A953E8C0.svg</URL>
+    </control>
+    <control controlID="4FA207F6-68E8-4552-B2AA-A3CFCD7C2AB4" controlTypeID="TextArea" x="8" y="99" w="240" h="319" zOrder="3">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E5%86%85%E5%AE%B9%E7%AE%80%E4%BB%8B%EF%BC%9A%0D%0A%0D%0A%E7%9B%AE%E7%9A%84%EF%BC%9A%0D%0A%0D%0A%E5%BB%BA%E8%AE%AE%E4%BA%BA%E6%95%B0%EF%BC%9A%0D%0A%0D%0A%E5%87%86%E5%A4%87%E5%B7%A5%E5%85%B7%EF%BC%9A%0D%0A%0D%0A%E5%AE%9E%E8%A1%8C%E6%AD%A5%E9%AA%A4%EF%BC%9A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>
