@@ -1,0 +1,49 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
+  <controls controlCount="7">
+    <control controlID="1DF1887D-AE12-4B41-8F10-4F2DEA69BE86" controlTypeID="Image" x="0" y="162" w="371" h="650" zOrder="0">
+      <URL>58602C1C0FF9FF93177C5FFF5B64D39C.jpg</URL>
+    </control>
+    <control controlID="4246FEDB-C004-443A-8F08-6DCD06A3C355" controlTypeID="Shape" x="58" y="764" w="98" h="48" zOrder="1">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D9703DA7-D369-4954-9432-1C77B89BD760" controlTypeID="Shape" x="156" y="764" w="98" h="48" zOrder="2">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E5%AE%B6%E5%BA%AD%E6%8A%A5%E5%91%8A</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1A3C040A-841E-406E-AA8E-3F04095DEC27" controlTypeID="Shape" x="254" y="764" w="98" h="48" zOrder="3">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E6%88%91%E7%9A%84%E8%AE%BE%E5%AE%9A</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="99897F18-6FE7-46F9-9E45-E1AC937B4B47" controlTypeID="Shape" x="254" y="715" w="98" h="48" zOrder="4">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E8%B4%AD%E4%B9%B0%E6%B8%85%E5%8D%95</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="7D30F413-B654-4D1D-83D4-D6C6A6CD6ED5" controlTypeID="Shape" x="254" y="667" w="98" h="48" zOrder="5">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E9%80%9A%E7%9F%A5</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B5B290E3-4395-4323-B131-CCC051CA78D4" controlTypeID="Shape" x="58" y="715" w="98" h="48" zOrder="6">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E4%BB%8A%E6%97%A5%E6%B4%BB%E5%8A%A8</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

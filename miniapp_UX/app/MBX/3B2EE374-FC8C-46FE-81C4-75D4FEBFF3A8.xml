@@ -2,7 +2,7 @@
   <controls controlCount="11">
     <control controlID="0325DDAF-8585-4C43-8E51-ECFC2AA2603D" controlTypeID="Tab" x="0" y="95" w="375" h="669" zOrder="0">
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="A1A65C9C-48D1-4585-B8AF-233D2DFBF2E5" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%AF%8F%E5%91%A8%E6%B4%BB%E5%8A%A8">
+        <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%AF%8F%E5%91%A8%E6%B4%BB%E5%8A%A8">
           <area shape="0" alt="" ID="{5714070D-4B1F-4B2D-8151-5A72FEC44DC3}" coords="(0,0,71,18)"/>
         </link>
         <link targetPageID="3B2EE374-FC8C-46FE-81C4-75D4FEBFF3A8" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%8A%93%E9%98%84">

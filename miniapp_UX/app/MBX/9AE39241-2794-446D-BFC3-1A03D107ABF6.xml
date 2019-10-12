@@ -1,4 +1,4 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="9AE39241-2794-446D-BFC3-1A03D107ABF6" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="9AE39241-2794-446D-BFC3-1A03D107ABF6" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
   <controls controlCount="15">
     <control controlID="488DD42A-1DE1-40F1-9246-D377B2FCAA5E" controlTypeID="Shape" x="0" y="316" w="375" h="265" zOrder="0">
       <borderVisible>False</borderVisible>

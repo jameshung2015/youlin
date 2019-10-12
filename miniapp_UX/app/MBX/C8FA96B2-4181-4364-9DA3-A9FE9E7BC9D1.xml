@@ -1,4 +1,4 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="C8FA96B2-4181-4364-9DA3-A9FE9E7BC9D1" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="C8FA96B2-4181-4364-9DA3-A9FE9E7BC9D1" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
   <controls controlCount="3">
     <control controlID="160E12C8-7674-49CB-9B58-3B6F59066336" controlTypeID="Label" x="138" y="41" w="97" h="24" zOrder="0">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>

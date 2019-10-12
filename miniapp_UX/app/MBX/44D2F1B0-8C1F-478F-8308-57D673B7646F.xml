@@ -12,6 +12,11 @@
     </control>
     <control controlID="3ABFFEEA-789E-4DEE-BA1A-BC0EB6A600BA" controlTypeID="Icon" x="8" y="44" w="18" h="18" zOrder="1">
       <color>4281545523</color>
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%85%AC%E4%BC%97%E5%8F%B7%E9%A1%B5">
+          <area shape="0" alt="" ID="{7FC292DB-7566-4888-838C-C422AF9B9DE8}" coords="(0,0,18,18)"/>
+        </link>
+      </links>
       <icon>
         <ID/>
         <iconFontName>jdIonicons</iconFontName>
