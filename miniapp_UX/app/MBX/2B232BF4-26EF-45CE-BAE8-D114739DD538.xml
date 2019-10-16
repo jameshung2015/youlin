@@ -84,10 +84,10 @@
         <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%AF%8F%E5%91%A8%E6%B4%BB%E5%8A%A8">
           <area shape="0" alt="" ID="{5714070D-4B1F-4B2D-8151-5A72FEC44DC3}" coords="(0,0,71,18)"/>
         </link>
-        <link targetPageID="3B2EE374-FC8C-46FE-81C4-75D4FEBFF3A8" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%8A%93%E9%98%84">
+        <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%8A%93%E9%98%84">
           <area shape="0" alt="" ID="{9F8B7903-CFCF-4782-80DB-D2AA590139D7}" coords="(70,0,113,18)"/>
         </link>
-        <link targetPageID="7C30327F-0B92-4A02-AD7A-30015D4350F5" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%B4%AD%E4%B9%B0%E6%97%A5%E5%8E%86">
+        <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%B4%AD%E4%B9%B0%E6%97%A5%E5%8E%86">
           <area shape="0" alt="" ID="{62C1E897-7C13-42B3-95DD-2B3FE89C25D2}" coords="(112,0,184,18)"/>
         </link>
       </links>
@@ -126,7 +126,7 @@
     <control controlID="3CC32A03-5082-4251-85BB-BB61A5B39ADB" controlTypeID="Shape" x="9" y="127" w="358" h="120" zOrder="14">
       <color>16777215</color>
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="7C613522-3534-476C-97F8-E048EB2F7DE9" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%95%99%E6%A1%88%E8%8C%83%E4%BE%8B">
+        <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%95%99%E6%A1%88%E8%8C%83%E4%BE%8B">
           <area shape="0" alt="" ID="{3A5EB1B5-957E-4ABA-9935-F22EE5E8490E}" coords="(0,0,358,120)"/>
         </link>
       </links>

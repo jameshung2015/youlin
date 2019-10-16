@@ -1,5 +1,5 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="CDEEAF2B-8835-434D-9EBE-C371DFAB379D" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="41">
+  <controls controlCount="42">
     <control controlID="129C7F28-2C5C-45F2-8FFA-4CDD6E40B7DE" controlTypeID="Label" x="89" y="98" w="33" h="23" zOrder="0">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%E5%A6%88%E5%A6%88</text>
@@ -243,7 +243,7 @@
       </icon>
       <URL>40E39A09158BEC58EE5C5769A953E8C0.svg</URL>
     </control>
-    <control controlID="AEC82A91-BA4F-4B69-9F89-E0022C93C393" controlTypeID="Icon" x="149" y="593" w="64" h="64" zOrder="28">
+    <control controlID="AEC82A91-BA4F-4B69-9F89-E0022C93C393" controlTypeID="Icon" x="149" y="612" w="64" h="64" zOrder="28">
       <interactiveData>
         <entry title="">
           <area shape="0" alt="" ID="{AAF41F5B-FE24-4346-9EB7-1A0924F01EEC}" coords="(0,0,64,64)"/>
@@ -398,6 +398,45 @@
         </entry>
       </interactiveData>
       <URL>167BDEE96494609695F4189886AC5921.png</URL>
+    </control>
+    <control controlID="2D0CA60C-415E-46E1-81D6-30D0D5489FB6" controlTypeID="Icon" x="20" y="612" w="64" h="64" zOrder="41">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="64438218-9303-421A-A9E6-05055BB4D91F" linkType="ltPageLink" isApplyIncludePage="False" title="group%E7%AE%A1%E7%90%86">
+          <area shape="0" alt="" ID="{1F5AB33F-BD6D-4F3F-A019-53F79821CA78}" coords="(0,0,64,64)"/>
+        </link>
+      </links>
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{AAF41F5B-FE24-4346-9EB7-1A0924F01EEC}" coords="(0,0,64,64)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="EED2E48B-15BF-4101-8C6C-AA02BF5F73C5" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="0" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62366</iconCode>
+      </icon>
+      <URL>CB1D4BD70EFAF9D0D63B9D0659D62AAA.svg</URL>
     </control>
   </controls>
   <param>

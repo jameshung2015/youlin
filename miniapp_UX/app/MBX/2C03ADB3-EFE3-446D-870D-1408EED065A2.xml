@@ -1,8 +1,8 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="2C03ADB3-EFE3-446D-870D-1408EED065A2" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="29">
+  <controls controlCount="28">
     <control controlID="3EBCAF59-7501-4288-B2FB-47EE4CE9B5FD" controlTypeID="Label" x="138" y="41" w="72" h="24" zOrder="0">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
-      <text>%E6%A8%A1%E6%9D%BF%E6%8A%A5%E5%91%8A</text>
+      <text>%E5%AE%B6%E5%BA%AD%E5%91%A8%E6%8A%A5</text>
       <textSize>18</textSize>
       <textVAlign>VaTop</textVAlign>
       <lineSpacing>0</lineSpacing>
@@ -47,7 +47,7 @@
         </control>
         <control controlID="2C8D26E9-8FA8-407C-AE4A-8E0FB47C1294" controlTypeID="Label" x="6" y="5" w="78" h="19" zOrder="1">
           <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-          <text>XX+%E5%85%AC%E7%BA%A6%E6%8A%A5%E5%91%8A</text>
+          <text>XX+%E6%B4%BB%E5%8A%A8%E6%8A%A5%E5%91%8A</text>
           <lineSpacing>0</lineSpacing>
           <selectedIndex>-1</selectedIndex>
         </control>
@@ -69,21 +69,21 @@
           <textSize>14</textSize>
           <lineSpacing>0</lineSpacing>
         </control>
-        <control controlID="BA8F9AEA-B84D-418A-9F3E-D9D47A9DD2E7" controlTypeID="Label" x="218" y="164" w="69" h="19" zOrder="5">
+        <control controlID="BA8F9AEA-B84D-418A-9F3E-D9D47A9DD2E7" controlTypeID="Label" x="218" y="164" w="56" h="19" zOrder="5">
           <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-          <text>%E5%B7%B2%E5%AE%8C%E6%88%90%E6%B4%BB%E5%8A%A8</text>
+          <text>%E6%B4%BB%E5%8A%A8%E7%B1%BB%E5%9E%8B</text>
           <lineSpacing>0</lineSpacing>
           <selectedIndex>-1</selectedIndex>
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="3F623DB0-A952-49D0-AFFD-1AF68DF301A2" controlTypeID="ColumnChartEx" x="94" y="305" w="190" h="190" zOrder="4">
+    <control controlID="3F623DB0-A952-49D0-AFFD-1AF68DF301A2" controlTypeID="ColumnChartEx" x="21" y="278" w="170" h="175" zOrder="4">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>40%2C%E6%A9%99%0D%0A70%2C%E9%9D%92%E8%89%B2%0D%0A100%2C%E7%B2%89%0D%0A60%2C%23FFCE55</text>
       <textSize>14</textSize>
       <lineSpacing>0</lineSpacing>
     </control>
-    <control controlID="EA684BB7-EAF6-47D7-9FC7-1A98AF46703F" controlTypeID="Label" x="123" y="505" w="146" h="19" zOrder="5">
+    <control controlID="EA684BB7-EAF6-47D7-9FC7-1A98AF46703F" controlTypeID="Label" x="26" y="453" w="146" h="19" zOrder="5">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%E6%88%90%E5%91%98%E6%9C%AC%E5%91%A8%E6%B4%BB%E5%8A%A8%2F%E7%95%99%E8%A8%80%E6%AC%A1%E6%95%B0</text>
       <lineSpacing>0</lineSpacing>
@@ -144,10 +144,10 @@
       <text>I+wan+a+apple+watch+%2C+as+a+annervery+gift+.someone+help+me+%3F</text>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="8A9D746F-F35E-4B56-81CC-7411ECA94C0D" controlTypeID="__group__" x="156" y="732" w="56" h="75" zOrder="14">
+    <control controlID="6A36D397-0967-4FB7-AC78-274E2BDD7E88" controlTypeID="Icon" x="92" y="757" w="52" h="52" zOrder="14">
       <interactiveData>
         <entry title="">
-          <area shape="0" alt="" ID="{CF1EAC78-E653-444A-AB3D-032A79D98497}" coords="(0,0,56,75)"/>
+          <area shape="0" alt="" ID="{BB9D1F62-44B5-4AC5-9CD3-86A1928E1E30}" coords="(0,0,52,52)"/>
           <events title="">
             <event eventType="atClick" isChecked="True">
               <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
@@ -171,22 +171,12 @@
           </events>
         </entry>
       </interactiveData>
-      <groupChildrenDescriptors>
-        <control controlID="6A36D397-0967-4FB7-AC78-274E2BDD7E88" controlTypeID="Icon" x="2" y="0" w="52" h="52" zOrder="0">
-          <icon>
-            <ID/>
-            <iconFontName>jdFontAwesome</iconFontName>
-            <iconCode>61744</iconCode>
-          </icon>
-          <URL>3F90A725F97A4C7F1C6DD1122B464A22.svg</URL>
-        </control>
-        <control controlID="61C50428-A152-4348-A3AA-835F02218B2A" controlTypeID="Label" x="0" y="56" w="56" h="19" zOrder="1">
-          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-          <text>%E5%8E%8B%E4%BD%8F%E7%95%99%E8%A8%80</text>
-          <lineSpacing>0</lineSpacing>
-          <selectedIndex>-1</selectedIndex>
-        </control>
-      </groupChildrenDescriptors>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62297</iconCode>
+      </icon>
+      <URL>A74ACDBBC3EE487C9CDF84F8F9700C7C.svg</URL>
     </control>
     <control controlID="8E39A15B-BA77-4B2E-85F3-6B1EB0E20DF9" controlTypeID="Label" x="318" y="603" w="32" h="19" zOrder="15">
       <interactiveData>
@@ -220,7 +210,7 @@
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="8EC3C008-0B39-4491-B5B9-DC5BE3F9F956" controlTypeID="__group__" x="3" y="454" w="373" h="263" zOrder="16">
+    <control controlID="8EC3C008-0B39-4491-B5B9-DC5BE3F9F956" controlTypeID="__group__" x="3" y="494" w="373" h="263" zOrder="16">
       <isShow>False</isShow>
       <caption>%E5%AF%B9%E8%AF%9D%E6%A1%86</caption>
       <groupChildrenDescriptors>
@@ -300,6 +290,14 @@
           <selectedIndex>-1</selectedIndex>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="A0D507FB-6D15-4E1B-A174-F5D83AFFA199" controlTypeID="Icon" x="227" y="767" w="37" h="37" zOrder="17">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62318</iconCode>
+      </icon>
+      <URL>DB7FC814F441C17601BBA7EA29C0CC4C.svg</URL>
     </control>
   </controls>
   <param>

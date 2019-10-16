@@ -8,7 +8,7 @@
         <link targetPageID="3B2EE374-FC8C-46FE-81C4-75D4FEBFF3A8" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%8A%93%E9%98%84">
           <area shape="0" alt="" ID="{9F8B7903-CFCF-4782-80DB-D2AA590139D7}" coords="(70,0,113,18)"/>
         </link>
-        <link targetPageID="7C30327F-0B92-4A02-AD7A-30015D4350F5" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%B4%AD%E4%B9%B0%E6%97%A5%E5%8E%86">
+        <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%B4%AD%E4%B9%B0%E6%97%A5%E5%8E%86">
           <area shape="0" alt="" ID="{62C1E897-7C13-42B3-95DD-2B3FE89C25D2}" coords="(112,0,184,18)"/>
         </link>
       </links>
@@ -101,7 +101,7 @@
     </control>
     <control controlID="2BF5DCA5-26D7-4DDC-BCCB-FA8F471F8D52" controlTypeID="Button" x="20" y="484" w="120" h="48" zOrder="9">
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="0F704A5E-DFEC-49C6-B64C-0C3BE4290158" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%94%AF%E4%BB%98%E9%A1%B5">
+        <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%94%AF%E4%BB%98%E9%A1%B5">
           <area shape="0" alt="" ID="{BCD95D12-2C52-4F1C-B37A-9E42A20E9C1E}" coords="(0,0,120,48)"/>
         </link>
       </links>
@@ -112,7 +112,7 @@
     </control>
     <control controlID="E5740445-6FB1-420C-A674-368DD256C6A2" controlTypeID="Button" x="228" y="484" w="120" h="48" zOrder="10">
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="CC5AD8F6-D322-479A-88A1-D76261D70B8F" linkType="ltPageLink" isApplyIncludePage="False" title="%E9%80%80%E6%AC%BE">
+        <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E9%80%80%E6%AC%BE">
           <area shape="0" alt="" ID="{BCD95D12-2C52-4F1C-B37A-9E42A20E9C1E}" coords="(0,0,120,48)"/>
         </link>
       </links>

@@ -1,0 +1,122 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="63BC57B0-AE4D-4DE1-8C3C-88D88CCB14A7" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="7">
+    <control controlID="A66C5EF0-FA26-4576-800F-E0C0EB2F0CA1" controlTypeID="Image" x="10" y="77" w="353" h="662" zOrder="0">
+      <URL>973C0739B9422A588C318517FBBCEC5A.jpg</URL>
+    </control>
+    <control controlID="50EFA314-882F-4874-907E-163A9681A18C" controlTypeID="Button" x="126" y="546" w="120" h="37" zOrder="1">
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{7728417A-BBB8-437D-9F3F-C07FE01A7E92}" coords="(0,0,120,37)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="9D51C398-47D5-47AD-AFF6-29BED91F93A2" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="2" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E5%BC%80%E5%A7%8B</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="9D51C398-47D5-47AD-AFF6-29BED91F93A2" controlTypeID="Image" x="171" y="87" w="204" h="442" zOrder="2">
+      <isShow>False</isShow>
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{4EFF495B-F63C-4B74-83C6-A7DB3CFAC2C1}" coords="(0,0,60,60)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="9D51C398-47D5-47AD-AFF6-29BED91F93A2" IsNeedReplaceAsSelfID="True" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="2" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <URL>D007807216F9ED3B58507B4F78621BAA.jpg</URL>
+      <flipHorizontal>True</flipHorizontal>
+    </control>
+    <control controlID="A9706724-F5BB-41B5-A3E9-9FB5F6CF63FB" controlTypeID="Shape" x="0" y="764" w="375" h="48" zOrder="3">
+      <borderColor>4293190884</borderColor>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <borderMode>[bmTop]</borderMode>
+    </control>
+    <control controlID="02E69CC2-55A9-4B8A-9E9B-DD0BB2C83D62" controlTypeID="Icon" x="59" y="774" w="24" h="24" zOrder="4">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="44D2F1B0-8C1F-478F-8308-57D673B7646F" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%91%E7%9A%84%E5%AE%B6(%E8%AE%AF%E6%81%AF%E6%B5%81%EF%BC%89">
+          <area shape="0" alt="" ID="{1758D544-BBE9-4673-BCD6-2CDDE0A42A75}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61970</iconCode>
+      </icon>
+      <URL>C02AE8E6E300C489E9473523EA2A95F1.svg</URL>
+    </control>
+    <control controlID="60BB36C9-63B1-433F-800A-06B32A51C67B" controlTypeID="Icon" x="177" y="774" w="24" h="24" zOrder="5">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="63BC57B0-AE4D-4DE1-8C3C-88D88CCB14A7" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%AE%B6%E5%BA%AD%E6%B8%B8%E6%88%8F">
+          <area shape="0" alt="" ID="{D4228E1A-AD33-4E08-BED6-D5A89D10FDE5}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontCustom</iconFontName>
+        <iconCode>61754</iconCode>
+      </icon>
+      <URL>6C961EB194E67666BA5CB618CA2210CF.svg</URL>
+    </control>
+    <control controlID="18FFEE09-5DD6-469E-8531-B2F1B14D4041" controlTypeID="Icon" x="300" y="774" w="24" h="24" zOrder="6">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="D71F62CA-54BB-4E8F-82D1-BCDE367C64B4" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%AE%BE%E7%BD%AE">
+          <area shape="0" alt="" ID="{E0DF9522-52DD-486E-87CB-37F61AEBA530}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62368</iconCode>
+      </icon>
+      <URL>B91434690C5B5224D1CC6B1998F1178A.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

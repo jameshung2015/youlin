@@ -1,16 +1,16 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
-  <controls controlCount="7">
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="17">
     <control controlID="1DF1887D-AE12-4B41-8F10-4F2DEA69BE86" controlTypeID="Image" x="0" y="162" w="371" h="650" zOrder="0">
       <URL>58602C1C0FF9FF93177C5FFF5B64D39C.jpg</URL>
     </control>
-    <control controlID="4246FEDB-C004-443A-8F08-6DCD06A3C355" controlTypeID="Shape" x="58" y="764" w="98" h="48" zOrder="1">
+    <control controlID="4246FEDB-C004-443A-8F08-6DCD06A3C355" controlTypeID="Shape" x="53" y="763" w="98" h="48" zOrder="1">
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
         <link targetPageID="44D2F1B0-8C1F-478F-8308-57D673B7646F" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%91%E7%9A%84%E5%AE%B6(%E8%AE%AF%E6%81%AF%E6%B5%81%EF%BC%89">
           <area shape="0" alt="" ID="{C4450B75-8C83-4172-96C2-7AEF815116D6}" coords="(0,0,98,48)"/>
         </link>
       </links>
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD</text>
+      <text>%E5%AE%B6%E5%BA%AD%E6%B4%BB%E5%8A%A8</text>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
@@ -27,7 +27,7 @@
     </control>
     <control controlID="1A3C040A-841E-406E-AA8E-3F04095DEC27" controlTypeID="Shape" x="254" y="764" w="98" h="48" zOrder="3">
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="C8FA96B2-4181-4364-9DA3-A9FE9E7BC9D1" linkType="ltPageLink" isApplyIncludePage="False" title="%E7%99%BB%E5%85%A5%E9%A1%B5">
+        <link targetPageID="9AE39241-2794-446D-BFC3-1A03D107ABF6" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%8E%88%E6%9D%83">
           <area shape="0" alt="" ID="{2CC3CEE6-DD1B-491E-8286-D5CA982F0B71}" coords="(0,0,98,48)"/>
         </link>
       </links>
@@ -36,28 +36,107 @@
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="99897F18-6FE7-46F9-9E45-E1AC937B4B47" controlTypeID="Shape" x="254" y="715" w="98" h="48" zOrder="4">
+    <control controlID="E694DDE2-4842-439B-A84A-D950ECE5714C" controlTypeID="__group__" x="10" y="478" w="345" h="267" zOrder="4">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="9E447438-E61B-4C7D-9375-A0314B175804" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%B4%BB%E5%8A%A8%E8%8C%83%E6%9C%AC%E9%A1%B5">
+          <area shape="0" alt="" ID="{8709C2D1-B09D-48BF-AABE-F0EEF41DF7B2}" coords="(0,0,345,267)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="5454F18A-41ED-4F5F-890F-0A7F1B49EC7A" controlTypeID="Shape" x="0" y="0" w="345" h="267" zOrder="0">
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="DEE1BC8F-B8A9-4FD2-A1B9-928B49FB325B" controlTypeID="Label" x="13" y="17" w="99" h="19" zOrder="1">
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>week++%E6%B4%BB%E5%8A%A8%E6%8F%90%E9%86%92</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="C2154225-6158-436F-8D4B-C64E7CD7C913" controlTypeID="Label" x="146" y="116" w="32" h="19" zOrder="2">
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>%E5%9B%BE+%E6%96%87</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="99897F18-6FE7-46F9-9E45-E1AC937B4B47" controlTypeID="Shape" x="254" y="715" w="98" h="48" zOrder="5">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A0F56151-5AF6-472A-A503-C27CEE034725" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%BE%AE%E5%BA%97%E9%A6%96%E9%A1%B5">
+          <area shape="0" alt="" ID="{1C788C52-6CC5-4C00-8B02-289770892198}" coords="(0,0,98,48)"/>
+        </link>
+      </links>
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>%E8%B4%AD%E4%B9%B0%E6%B8%85%E5%8D%95</text>
+      <text>%E5%BE%AE%E5%BA%97</text>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="7D30F413-B654-4D1D-83D4-D6C6A6CD6ED5" controlTypeID="Shape" x="254" y="667" w="98" h="48" zOrder="5">
+    <control controlID="7D30F413-B654-4D1D-83D4-D6C6A6CD6ED5" controlTypeID="Shape" x="254" y="667" w="98" h="48" zOrder="6">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%E9%80%9A%E7%9F%A5</text>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="B5B290E3-4395-4323-B131-CCC051CA78D4" controlTypeID="Shape" x="58" y="715" w="98" h="48" zOrder="6">
-      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="2B232BF4-26EF-45CE-BAE8-D114739DD538" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%8F%91%E7%8E%B0%E9%A1%B5">
-          <area shape="0" alt="" ID="{2768BAAA-9EE7-4A6E-9DFA-386503662954}" coords="(0,0,98,48)"/>
-        </link>
-      </links>
+    <control controlID="B5B290E3-4395-4323-B131-CCC051CA78D4" controlTypeID="Shape" x="53" y="715" w="98" h="48" zOrder="7">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>%E4%BB%8A%E6%97%A5%E6%B4%BB%E5%8A%A8</text>
+      <text>%E5%8F%91%E7%8E%B0%E6%95%99%E7%A8%8B</text>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="97BF7DA8-968A-4CF5-A3BA-9E8EFD615BD5" controlTypeID="__group__" x="10" y="220" w="345" h="212" zOrder="8">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="44D2F1B0-8C1F-478F-8308-57D673B7646F" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%91%E7%9A%84%E5%AE%B6(%E8%AE%AF%E6%81%AF%E6%B5%81%EF%BC%89">
+          <area shape="0" alt="" ID="{8709C2D1-B09D-48BF-AABE-F0EEF41DF7B2}" coords="(0,0,345,212)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="01714C42-5C86-4785-ACF7-156BC564D2A1" controlTypeID="Shape" x="0" y="0" w="345" h="212" zOrder="0">
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="22CC798B-CD6E-4826-85A2-2A4A4539D665" controlTypeID="Label" x="14" y="10" w="83" h="19" zOrder="1">
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>%E4%BA%BA%E5%91%98%E6%89%93%E5%8D%A1%E9%80%9A%E7%9F%A5</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="1FCDF41C-810D-4876-BF50-B39C552C9A38" controlTypeID="Label" x="14" y="94" w="104" h="19" zOrder="2">
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <text>momo+%E5%8F%91%E5%B8%83%E6%B6%88%E6%81%AF</text>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="C06ABF41-243C-43F0-8D0D-0FAC35358B9B" controlTypeID="Icon" x="331" y="186" w="24" h="24" zOrder="9">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="C8FA96B2-4181-4364-9DA3-A9FE9E7BC9D1" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%85%AC%E4%BC%97%E5%8F%B7%E7%99%BB%E5%85%A5%E9%A1%B5">
+          <area shape="0" alt="" ID="{A8F8FDA2-5EF0-47E1-9BDB-E29ADBAE0AF2}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdiconfontB</iconFontName>
+        <iconCode>59648</iconCode>
+      </icon>
+      <URL>42CF9E031360EBC09387427849BF6328.svg</URL>
+    </control>
+    <control controlID="AA2EEB08-992C-4897-AD15-01D2BCCDE8CF" controlTypeID="Icon" x="20" y="186" w="18" h="18" zOrder="10">
+      <color>4281545523</color>
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="C8FA96B2-4181-4364-9DA3-A9FE9E7BC9D1" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%85%AC%E4%BC%97%E5%8F%B7%E7%99%BB%E5%85%A5%E9%A1%B5">
+          <area shape="0" alt="" ID="{7FC292DB-7566-4888-838C-C422AF9B9DE8}" coords="(0,0,18,18)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
     </control>
   </controls>
   <param>
