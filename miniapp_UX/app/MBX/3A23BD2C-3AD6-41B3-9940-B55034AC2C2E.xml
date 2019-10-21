@@ -115,14 +115,14 @@
       </icon>
       <URL>B91434690C5B5224D1CC6B1998F1178A.svg</URL>
     </control>
-    <control controlID="E0568BB0-384F-4449-B1F3-FCAFF36F1C67" controlTypeID="__group__" x="22" y="238" w="219" h="106" zOrder="13">
+    <control controlID="E0568BB0-384F-4449-B1F3-FCAFF36F1C67" controlTypeID="__group__" x="22" y="238" w="199" h="106" zOrder="13">
       <groupChildrenDescriptors>
         <control controlID="C7D29492-1209-4F41-9378-EB3DFD7E53A3" controlTypeID="Image" x="0" y="0" w="103" h="106" zOrder="0">
           <URL>8981B7BD05E11EA4329F2BDEDE006CA4.png</URL>
         </control>
-        <control controlID="04D6A4E6-85AC-4ED5-90F7-A87681714A3D" controlTypeID="Label" x="139" y="34" w="80" h="27" zOrder="1">
+        <control controlID="04D6A4E6-85AC-4ED5-90F7-A87681714A3D" controlTypeID="Label" x="139" y="34" w="60" h="27" zOrder="1">
           <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-          <text>%E8%A7%82%E7%9C%8B%E7%90%83%E8%B5%9B</text>
+          <text>%E9%99%8D%E8%90%BD%E4%BC%9E</text>
           <textSize>20</textSize>
           <lineSpacing>0</lineSpacing>
           <useDefaultTextSize>False</useDefaultTextSize>

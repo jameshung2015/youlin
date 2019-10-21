@@ -1,5 +1,5 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="44D2F1B0-8C1F-478F-8308-57D673B7646F" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="30">
+  <controls controlCount="24">
     <control controlID="F24884EF-9705-42DD-ABE6-3A2BAC6838C1" controlTypeID="Label" x="138" y="41" w="61" h="24" zOrder="0">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>XX%E6%97%B6%E5%85%89</text>
@@ -38,67 +38,23 @@
       </icon>
       <URL>40E39A09158BEC58EE5C5769A953E8C0.svg</URL>
     </control>
-    <control controlID="9F9A46DB-6F6C-4D73-BA41-D3762295F65C" controlTypeID="ScrollView" x="8" y="79" w="355" h="685" zOrder="3">
+    <control controlID="9F9A46DB-6F6C-4D73-BA41-D3762295F65C" controlTypeID="ScrollView" x="10" y="79" w="355" h="685" zOrder="3">
       <borderVisible>False</borderVisible>
       <groupChildrenDescriptors>
-        <control controlID="8C98D90D-DE7D-4111-9B90-F688EA3D5B7F" controlTypeID="ScrollViewContentPanel" x="0" y="0" w="1559" h="776" zOrder="0">
+        <control controlID="8C98D90D-DE7D-4111-9B90-F688EA3D5B7F" controlTypeID="ScrollViewContentPanel" x="0" y="-60" w="1559" h="776" zOrder="0">
           <alias>contentPanel</alias>
           <groupChildrenDescriptors>
-            <control controlID="865E775E-F7B2-4777-B2B4-E74CB85CCF2F" controlTypeID="__group__" x="12" y="6" w="338" h="186" zOrder="0">
-              <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-                <link targetPageID="2C03ADB3-EFE3-446D-870D-1408EED065A2" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%8A%A5%E5%91%8A">
-                  <area shape="0" alt="" ID="{ED23F615-384C-4426-9437-F3BFA1400BA0}" coords="(0,0,338,186)"/>
-                </link>
-              </links>
-              <groupChildrenDescriptors>
-                <control controlID="389506C5-50A1-45F8-AF9B-5D6D3AB00BFE" controlTypeID="Shape" x="0" y="0" w="338" h="186" zOrder="0">
-                  <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-                  <textSize>14</textSize>
-                  <selectedIndex>-1</selectedIndex>
-                </control>
-                <control controlID="B20D1D7C-A911-4076-BAEC-5F08F3F0524E" controlTypeID="Label" x="6" y="5" w="78" h="19" zOrder="1">
-                  <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-                  <text>XX+%E5%AE%B6%E5%BA%AD%E6%8A%A5%E5%91%8A</text>
-                  <lineSpacing>0</lineSpacing>
-                  <selectedIndex>-1</selectedIndex>
-                </control>
-                <control controlID="246BFF5A-459B-4D67-827D-C5D0E7949143" controlTypeID="PieChartEx" x="27" y="34" w="121" h="120" zOrder="2">
-                  <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-                  <text>25%2C%E6%A9%99%0D%0A5%2C%E9%9D%92%E8%89%B2%0D%0A30%2C%E8%93%9D%0D%0A40%2C%23FFCE55</text>
-                  <textSize>14</textSize>
-                  <lineSpacing>0</lineSpacing>
-                </control>
-                <control controlID="6FED96BC-1D28-4AD2-A727-0FB87CD0541A" controlTypeID="Label" x="30" y="162" w="111" h="19" zOrder="3">
-                  <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-                  <text>%E6%88%90%E5%91%98%E5%8F%82%E4%B8%8E%E6%97%B6%E9%97%B4%E6%AF%94%E4%BE%8B</text>
-                  <lineSpacing>0</lineSpacing>
-                  <selectedIndex>-1</selectedIndex>
-                </control>
-                <control controlID="E433CC43-5AC9-41B3-A8A5-7DDC3A1DF2BB" controlTypeID="LineChartEx" x="185" y="20" w="134" h="134" zOrder="4">
-                  <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-                  <text>20%2C70%2C-%2C60%2C100%2C%E9%BB%84%E8%89%B2%0D%0A40%2C45%2C80%2C50%2C60%2C%E9%9D%92%0D%0A-%2C10%2C30%2C35%2C50%2C%E7%B2%89%E8%89%B2</text>
-                  <textSize>14</textSize>
-                  <lineSpacing>0</lineSpacing>
-                </control>
-                <control controlID="C8FFF105-233B-44B9-963F-552CDD54EC5B" controlTypeID="Label" x="218" y="164" w="69" h="19" zOrder="5">
-                  <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-                  <text>%E5%B7%B2%E5%AE%8C%E6%88%90%E6%B4%BB%E5%8A%A8</text>
-                  <lineSpacing>0</lineSpacing>
-                  <selectedIndex>-1</selectedIndex>
-                </control>
-              </groupChildrenDescriptors>
-            </control>
-            <control controlID="95E4B28C-07D5-491B-99D4-F1B6BE8DBF06" controlTypeID="Shape" x="95" y="206" w="157" h="26" zOrder="1">
+            <control controlID="95E4B28C-07D5-491B-99D4-F1B6BE8DBF06" controlTypeID="Shape" x="95" y="206" w="157" h="26" zOrder="0">
               <borderColor>4294967295</borderColor>
               <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
               <textColor>4294967295</textColor>
               <textSize>14</textSize>
               <selectedIndex>-1</selectedIndex>
             </control>
-            <control controlID="59C57A62-5FE4-465E-AC68-2CC443BDFBD0" controlTypeID="__group__" x="12" y="202" w="338" h="370" zOrder="2">
+            <control controlID="59C57A62-5FE4-465E-AC68-2CC443BDFBD0" controlTypeID="__group__" x="12" y="77" w="338" h="370" zOrder="1">
               <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
                 <link targetPageID="AD7346C6-E726-4176-B34D-C3A911B8B26C" linkType="ltPageLink" isApplyIncludePage="False" title="%E7%BC%96%E8%BE%91%E6%89%93%E5%8D%A1">
-                  <area shape="0" alt="" ID="{15A2A060-503F-4243-B61F-A0D4D926FB72}" coords="(0,0,338,370)"/>
+                  <area shape="0" alt="" ID="{15A2A060-503F-4243-B61F-A0D4D926FB72}" coords="(0,0,375,812)"/>
                 </link>
               </links>
               <groupChildrenDescriptors>
@@ -123,9 +79,17 @@
                   <lineSpacing>0</lineSpacing>
                   <selectedIndex>-1</selectedIndex>
                 </control>
+                <control controlID="F2D0ED6D-0233-4E75-946C-D9DFA70D789B" controlTypeID="Icon" x="259" y="325" w="24" h="24" zOrder="4">
+                  <icon>
+                    <ID/>
+                    <iconFontName>jdIonicons</iconFontName>
+                    <iconCode>62200</iconCode>
+                  </icon>
+                  <URL>B9619BF0A6C60DFCDA16F57946ED93CE.svg</URL>
+                </control>
               </groupChildrenDescriptors>
             </control>
-            <control controlID="EDD751F1-8F1C-45B2-BFEB-88D4D8AB9687" controlTypeID="__group__" x="13" y="572" w="336" h="179" zOrder="3">
+            <control controlID="EDD751F1-8F1C-45B2-BFEB-88D4D8AB9687" controlTypeID="__group__" x="13" y="457" w="336" h="179" zOrder="2">
               <groupChildrenDescriptors>
                 <control controlID="C9216C2F-FC51-4152-981F-6520FF2676AD" controlTypeID="Image" x="15" y="42" w="321" h="137" zOrder="0">
                   <URL>B27E14372FFCF9075F8953DEBCF58249.png</URL>
