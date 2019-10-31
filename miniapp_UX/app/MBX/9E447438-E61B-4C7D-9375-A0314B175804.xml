@@ -1,5 +1,5 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="9E447438-E61B-4C7D-9375-A0314B175804" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="4">
+  <controls controlCount="5">
     <control controlID="8354DCAC-B7F7-40B3-96F1-A302862C551B" controlTypeID="Image" x="0" y="55" w="375" h="667" zOrder="0">
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
         <link targetPageID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%85%AC%E4%BC%97%E5%8F%B7%E9%A1%B5">
@@ -32,6 +32,20 @@
         <iconCode>62346</iconCode>
       </icon>
       <URL>2A91D95040708868862283C0B7AE86CC.svg</URL>
+    </control>
+    <control controlID="B16A3CCF-C2B9-4002-9225-D5AB4F8D7B37" controlTypeID="Icon" x="12" y="82" w="18" h="18" zOrder="4">
+      <color>4281545523</color>
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="3A23BD2C-3AD6-41B3-9940-B55034AC2C2E" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%8F%91%E7%8E%B0%E9%A1%B5">
+          <area shape="0" alt="" ID="{7FC292DB-7566-4888-838C-C422AF9B9DE8}" coords="(0,0,18,18)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62418</iconCode>
+      </icon>
+      <URL>91852B86E51F760894554368302F9800.svg</URL>
     </control>
   </controls>
   <param>

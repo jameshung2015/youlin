@@ -1,0 +1,29 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="F37321ED-A4D0-445E-9FD7-4EE242A68F28" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="3">
+    <control controlID="0B0F7BC5-D154-4BDF-BF3B-DCF7C8D518A9" controlTypeID="Image" x="0" y="131" w="379" h="608" zOrder="0">
+      <URL>9D94FB0A71D240B66A7803AD0AEFF42B.png</URL>
+    </control>
+    <control controlID="B8B460E3-0A6A-4A5D-A296-CCF0985303E0" controlTypeID="Shape" x="5" y="335" w="181" h="236" zOrder="1">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="9E447438-E61B-4C7D-9375-A0314B175804" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%B4%BB%E5%8A%A8%E8%8C%83%E6%9C%AC%E9%A1%B5">
+          <area shape="0" alt="" ID="{16C6CCAA-C6DB-4D3A-B1F8-ECF7A49A035A}" coords="(0,0,181,236)"/>
+        </link>
+      </links>
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E7%82%B9%E5%87%BB%E8%BF%9B%E5%85%A5%E5%86%85%E5%AE%B9</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="FFCEBC96-EBB9-4870-B353-3D78A872E475" controlTypeID="Shape" x="0" y="81" w="375" h="50" zOrder="2">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>search%3A+%E8%89%BA%E6%9C%AF</text>
+      <textSize>14</textSize>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

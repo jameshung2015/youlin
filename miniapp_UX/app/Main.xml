@@ -6,25 +6,32 @@
     <colorParam version="1.0"/>
   </params>
   <pages>
-    <page name="公众号页" ID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" expanded="True" code="MKIMCSrSd6" thumbCode="MKIMCSrSd6" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+    <page name="公众号页" ID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" expanded="True" code="YURAl3L3nD" thumbCode="YURAl3L3nD" status="psWhite" isfolder="False" isshownode="True">
       <images>
         <image key="58602C1C0FF9FF93177C5FFF5B64D39C.jpg"/>
         <image key="42CF9E031360EBC09387427849BF6328.svg"/>
         <image key="91852B86E51F760894554368302F9800.svg"/>
       </images>
-      <page name="活动记录" ID="DA506E51-4BB2-4CC0-B75E-2E866C47ED47" expanded="True" code="M7uPXCHBGz" thumbCode="G4FQLUIshl" status="psWhite" isfolder="False" isshownode="True">
+      <page name="内容页A" ID="F37321ED-A4D0-445E-9FD7-4EE242A68F28" expanded="True" code="1p4YCK6hWW" thumbCode="1p4YCK6hWW" status="psWhite" isfolder="False" isshownode="True">
         <images>
-          <image key="6E3D62911D5AA97224B0717E31ED59A8.jpg"/>
+          <image key="9D94FB0A71D240B66A7803AD0AEFF42B.png"/>
         </images>
+        <page name="活动记录" ID="DA506E51-4BB2-4CC0-B75E-2E866C47ED47" expanded="True" code="I3od7o7UI5" thumbCode="I3od7o7UI5" status="psWhite" isfolder="False" isshownode="True">
+          <images>
+            <image key="91852B86E51F760894554368302F9800.svg"/>
+            <image key="6E3D62911D5AA97224B0717E31ED59A8.jpg"/>
+          </images>
+        </page>
       </page>
-      <page name="活动范本页" ID="9E447438-E61B-4C7D-9375-A0314B175804" expanded="True" code="Vfu55K6BtQ" thumbCode="Vfu55K6BtQ" status="psWhite" isfolder="False" isshownode="True">
+      <page name="活动范本页" ID="9E447438-E61B-4C7D-9375-A0314B175804" expanded="True" code="bDi2K8dEMl" thumbCode="bDi2K8dEMl" status="psWhite" isfolder="False" isshownode="True">
         <images>
           <image key="2A91D95040708868862283C0B7AE86CC.svg"/>
+          <image key="91852B86E51F760894554368302F9800.svg"/>
           <image key="3A1FF6BB5DA66A28D914ED1C5325076C.jpg"/>
         </images>
       </page>
     </page>
-    <page name="发现页" ID="3A23BD2C-3AD6-41B3-9940-B55034AC2C2E" expanded="True" code="ju6TNxXQN8" thumbCode="ju6TNxXQN8" status="psWhite" isfolder="False" isshownode="True">
+    <page name="发现页" ID="3A23BD2C-3AD6-41B3-9940-B55034AC2C2E" expanded="True" code="37gwr3J1JC" thumbCode="S9ry4SkamB" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
       <images>
         <image key="B91434690C5B5224D1CC6B1998F1178A.svg"/>
         <image key="B4716517B986DB15A834C748B3E24166.svg"/>
@@ -33,7 +40,6 @@
         <image key="91852B86E51F760894554368302F9800.svg"/>
         <image key="40E39A09158BEC58EE5C5769A953E8C0.svg"/>
         <image key="C02AE8E6E300C489E9473523EA2A95F1.svg"/>
-        <image key="8981B7BD05E11EA4329F2BDEDE006CA4.png"/>
         <image key="3A3CD3DB2FAE85FFEF2A8996E634645D.svg"/>
         <image key="1549EC1D28F800FE22A857B5F78B3ADC.png"/>
       </images>
@@ -406,6 +412,7 @@
     <image key="C02AE8E6E300C489E9473523EA2A95F1.svg"/>
     <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
     <image key="CF608875CBE5264C89AF43F6DCCC8611.svg"/>
+    <image key="9D94FB0A71D240B66A7803AD0AEFF42B.png"/>
     <image key="8B88A3801B3A0C1241F286BBFB3A18B2.jpg"/>
     <image key="B45BA321AA621412349562530A555417.jpg"/>
     <image key="6C42B2091EA0A7AE57886B5DB0BEDBB0.jpg"/>
