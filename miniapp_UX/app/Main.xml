@@ -6,34 +6,48 @@
     <colorParam version="1.0"/>
   </params>
   <pages>
-    <page name="公众号页" ID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" expanded="True" code="5zLHEXsmv4" thumbCode="GOJkXlAs2T" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+    <page name="公众号页" ID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" expanded="True" code="MKIMCSrSd6" thumbCode="MKIMCSrSd6" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
       <images>
         <image key="58602C1C0FF9FF93177C5FFF5B64D39C.jpg"/>
         <image key="42CF9E031360EBC09387427849BF6328.svg"/>
         <image key="91852B86E51F760894554368302F9800.svg"/>
       </images>
-      <page name="活动范本页" ID="9E447438-E61B-4C7D-9375-A0314B175804" expanded="True" code="oPj81L571h" thumbCode="oPj81L571h" status="psWhite" isfolder="False" isshownode="True">
+      <page name="活动记录" ID="DA506E51-4BB2-4CC0-B75E-2E866C47ED47" expanded="True" code="M7uPXCHBGz" thumbCode="G4FQLUIshl" status="psWhite" isfolder="False" isshownode="True">
         <images>
+          <image key="6E3D62911D5AA97224B0717E31ED59A8.jpg"/>
+        </images>
+      </page>
+      <page name="活动范本页" ID="9E447438-E61B-4C7D-9375-A0314B175804" expanded="True" code="Vfu55K6BtQ" thumbCode="Vfu55K6BtQ" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="2A91D95040708868862283C0B7AE86CC.svg"/>
           <image key="3A1FF6BB5DA66A28D914ED1C5325076C.jpg"/>
         </images>
       </page>
     </page>
-    <page name="发现页" ID="3A23BD2C-3AD6-41B3-9940-B55034AC2C2E" expanded="True" code="zt5wk2Mv5u" thumbCode="zt5wk2Mv5u" status="psWhite" isfolder="False" isshownode="True">
+    <page name="发现页" ID="3A23BD2C-3AD6-41B3-9940-B55034AC2C2E" expanded="True" code="ju6TNxXQN8" thumbCode="ju6TNxXQN8" status="psWhite" isfolder="False" isshownode="True">
       <images>
-        <image key="299765C56971123189CBB3A12C32DED3.svg"/>
-        <image key="9971C54B10DB4FB36C582D891537A230.svg"/>
         <image key="B91434690C5B5224D1CC6B1998F1178A.svg"/>
         <image key="B4716517B986DB15A834C748B3E24166.svg"/>
         <image key="5D1D168B3CDEF5C7DDB98F07F551D8A4.svg"/>
-        <image key="C02E786897D893B11E63CC5EF09BBED2.svg"/>
+        <image key="412034C4711C50AE98F8E78056BB729A.svg"/>
         <image key="91852B86E51F760894554368302F9800.svg"/>
         <image key="40E39A09158BEC58EE5C5769A953E8C0.svg"/>
         <image key="C02AE8E6E300C489E9473523EA2A95F1.svg"/>
         <image key="8981B7BD05E11EA4329F2BDEDE006CA4.png"/>
+        <image key="3A3CD3DB2FAE85FFEF2A8996E634645D.svg"/>
         <image key="1549EC1D28F800FE22A857B5F78B3ADC.png"/>
       </images>
+      <page name="话题-H5" ID="74AD6B18-711F-41B7-A3D4-93C4AC2E1BF6" expanded="True" code="YWcDIUJ4hW" thumbCode="YWcDIUJ4hW" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="91852B86E51F760894554368302F9800.svg"/>
+          <image key="40E39A09158BEC58EE5C5769A953E8C0.svg"/>
+          <image key="8981B7BD05E11EA4329F2BDEDE006CA4.png"/>
+          <image key="3A3CD3DB2FAE85FFEF2A8996E634645D.svg"/>
+          <image key="1549EC1D28F800FE22A857B5F78B3ADC.png"/>
+        </images>
+      </page>
     </page>
-    <page name="我的家(讯息流）" ID="44D2F1B0-8C1F-478F-8308-57D673B7646F" expanded="True" code="o3SB6uy9Im" thumbCode="o3SB6uy9Im" status="psWhite" isfolder="False" isshownode="True">
+    <page name="我的家(讯息流）" ID="44D2F1B0-8C1F-478F-8308-57D673B7646F" expanded="True" code="7OB3FWCeUM" thumbCode="7OB3FWCeUM" status="psWhite" isfolder="False" isshownode="True">
       <images>
         <image key="C02AE8E6E300C489E9473523EA2A95F1.svg"/>
         <image key="B27E14372FFCF9075F8953DEBCF58249.png"/>
@@ -47,7 +61,7 @@
         <image key="D08755C22A9B40B6BF65036DEC8B44B4.svg"/>
         <image key="A74ACDBBC3EE487C9CDF84F8F9700C7C.svg"/>
       </images>
-      <page name="编辑打卡" ID="AD7346C6-E726-4176-B34D-C3A911B8B26C" expanded="True" code="NbpTAEr2L8" thumbCode="NbpTAEr2L8" status="psWhite" isfolder="False" isshownode="True">
+      <page name="编辑打卡" ID="AD7346C6-E726-4176-B34D-C3A911B8B26C" expanded="True" code="MmJZfH8WGi" thumbCode="MmJZfH8WGi" status="psWhite" isfolder="False" isshownode="True">
         <images>
           <image key="D08755C22A9B40B6BF65036DEC8B44B4.svg"/>
           <image key="474A61FDC203C97B2EEFAF494C017CCB.svg"/>
@@ -97,7 +111,7 @@
           </images>
         </page>
       </page>
-      <page name="报告" ID="2C03ADB3-EFE3-446D-870D-1408EED065A2" expanded="True" code="1WR48yNrCO" thumbCode="Ddsw3VNJKT" status="psWhite" isfolder="False" isshownode="True">
+      <page name="报告" ID="2C03ADB3-EFE3-446D-870D-1408EED065A2" expanded="True" code="DxyFctT7dR" thumbCode="DxyFctT7dR" status="psWhite" isfolder="False" isshownode="True">
         <images>
           <image key="A74ACDBBC3EE487C9CDF84F8F9700C7C.svg"/>
           <image key="91852B86E51F760894554368302F9800.svg"/>
@@ -107,7 +121,7 @@
         </images>
       </page>
     </page>
-    <page name="设置" ID="D71F62CA-54BB-4E8F-82D1-BCDE367C64B4" expanded="True" code="ScMHGPmis5" thumbCode="ScMHGPmis5" status="psWhite" isfolder="False" isshownode="True">
+    <page name="设置" ID="D71F62CA-54BB-4E8F-82D1-BCDE367C64B4" expanded="True" code="57l4kFckra" thumbCode="57l4kFckra" status="psWhite" isfolder="False" isshownode="True">
       <images>
         <image key="B91434690C5B5224D1CC6B1998F1178A.svg"/>
         <image key="9B980C0D1CC7BC3CEE43152AB38CAA8D.jpg"/>
@@ -120,7 +134,7 @@
         <image key="C02AE8E6E300C489E9473523EA2A95F1.svg"/>
         <image key="CF608875CBE5264C89AF43F6DCCC8611.svg"/>
       </images>
-      <page name="成员管理" ID="CDEEAF2B-8835-434D-9EBE-C371DFAB379D" expanded="False" code="MPRYVyJX5f" thumbCode="MPRYVyJX5f" status="psWhite" isfolder="False" isshownode="True">
+      <page name="成员管理" ID="CDEEAF2B-8835-434D-9EBE-C371DFAB379D" expanded="True" code="sYqEMKgjnb" thumbCode="sYqEMKgjnb" status="psWhite" isfolder="False" isshownode="True">
         <images>
           <image key="9B980C0D1CC7BC3CEE43152AB38CAA8D.jpg"/>
           <image key="CB1D4BD70EFAF9D0D63B9D0659D62AAA.svg"/>
@@ -136,24 +150,25 @@
           <image key="167BDEE96494609695F4189886AC5921.png"/>
         </images>
       </page>
-      <page name="group管理" ID="64438218-9303-421A-A9E6-05055BB4D91F" expanded="True" code="BIpgsQQmkA" thumbCode="BIpgsQQmkA" status="psWhite" isfolder="False" isshownode="True">
+      <page name="group管理" ID="64438218-9303-421A-A9E6-05055BB4D91F" expanded="True" code="trea6hRtnS" thumbCode="trea6hRtnS" status="psWhite" isfolder="False" isshownode="True">
         <images>
+          <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
           <image key="91852B86E51F760894554368302F9800.svg"/>
           <image key="40E39A09158BEC58EE5C5769A953E8C0.svg"/>
         </images>
       </page>
     </page>
-    <page name="公众号登入页" ID="C8FA96B2-4181-4364-9DA3-A9FE9E7BC9D1" expanded="True" code="2k7d2RJjgD" thumbCode="2k7d2RJjgD" status="psGreen" isfolder="False" isshownode="True">
+    <page name="公众号登入页" ID="C8FA96B2-4181-4364-9DA3-A9FE9E7BC9D1" expanded="True" code="b3nDvVxzdz" thumbCode="b3nDvVxzdz" status="psGreen" isfolder="False" isshownode="True">
       <images>
         <image key="1A4C576ABB776DBEC34F285541D8D7E8.jpg"/>
         <image key="91852B86E51F760894554368302F9800.svg"/>
         <image key="40E39A09158BEC58EE5C5769A953E8C0.svg"/>
       </images>
-      <page name="授权" ID="9AE39241-2794-446D-BFC3-1A03D107ABF6" expanded="True" code="4xdKmZqN4Z" thumbCode="vJhVZ6afAX" status="psWhite" isfolder="False" isshownode="True">
+      <page name="授权" ID="9AE39241-2794-446D-BFC3-1A03D107ABF6" expanded="True" code="4xdKmZqN4Z" thumbCode="4xdKmZqN4Z" status="psWhite" isfolder="False" isshownode="True">
         <images>
-          <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
           <image key="91852B86E51F760894554368302F9800.svg"/>
           <image key="40E39A09158BEC58EE5C5769A953E8C0.svg"/>
+          <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
           <image key="45D934B7D60B552EBCCB182AE7002F68.png"/>
         </images>
       </page>
@@ -340,9 +355,9 @@
     <image key="AF0D40173633037E74BD153754DEA1E4.jpg"/>
     <image key="D007807216F9ED3B58507B4F78621BAA.jpg"/>
     <image key="B91434690C5B5224D1CC6B1998F1178A.svg"/>
-    <image key="9971C54B10DB4FB36C582D891537A230.svg"/>
     <image key="5A57C8FAA6F3484223CDF15A407F2481.jpg"/>
     <image key="42CF9E031360EBC09387427849BF6328.svg"/>
+    <image key="2A91D95040708868862283C0B7AE86CC.svg"/>
     <image key="364601F55FB8F800405094C49AE53F3D.jpg"/>
     <image key="F975CFD32BC8A794C2D16A13F11B3599.jpg"/>
     <image key="167BDEE96494609695F4189886AC5921.png"/>
@@ -352,7 +367,6 @@
     <image key="AE2B2B2F96776E62DB53B548BE8418D3.jpg"/>
     <image key="41BACA5C90C06C95D081FB51FB64DE31.svg"/>
     <image key="973C0739B9422A588C318517FBBCEC5A.jpg"/>
-    <image key="C02E786897D893B11E63CC5EF09BBED2.svg"/>
     <image key="03E61363C3A993CD56AFC7D1B45A9F2A.jpg"/>
     <image key="DADD32610BBCDF78C7E609340CF0A998.png"/>
     <image key="3A3CD3DB2FAE85FFEF2A8996E634645D.svg"/>
@@ -361,6 +375,7 @@
     <image key="149755EC946D03D6F470182E7B858664.jpg"/>
     <image key="C9A19AEA8333861081ABFD164D361FEF.svg"/>
     <image key="7F23663C118E95B1CB63A2210EDD55D3.png"/>
+    <image key="6E3D62911D5AA97224B0717E31ED59A8.jpg"/>
     <image key="C12822B8AE3890BE32A0274B6AF9E5B5.svg"/>
     <image key="251F1625224832C883620D9F4A9B5863.png"/>
     <image key="AA5B6DEACFFE8A0928C7C0EB92A6212C.svg"/>
@@ -374,6 +389,7 @@
     <image key="0B8BAF5D41A29B844F347E384A69B097.png"/>
     <image key="F309B7C52F49BBF050361D4A93DC9083.png"/>
     <image key="2E967326C22523F5F084001B9F4E5BC7.svg"/>
+    <image key="412034C4711C50AE98F8E78056BB729A.svg"/>
     <image key="A964BA3BC7A964C8DC85D843353A40C8.jpg"/>
     <image key="91852B86E51F760894554368302F9800.svg"/>
     <image key="1549EC1D28F800FE22A857B5F78B3ADC.png"/>
@@ -390,7 +406,6 @@
     <image key="C02AE8E6E300C489E9473523EA2A95F1.svg"/>
     <image key="DB7FC814F441C17601BBA7EA29C0CC4C.svg"/>
     <image key="CF608875CBE5264C89AF43F6DCCC8611.svg"/>
-    <image key="299765C56971123189CBB3A12C32DED3.svg"/>
     <image key="8B88A3801B3A0C1241F286BBFB3A18B2.jpg"/>
     <image key="B45BA321AA621412349562530A555417.jpg"/>
     <image key="6C42B2091EA0A7AE57886B5DB0BEDBB0.jpg"/>

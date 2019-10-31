@@ -13,7 +13,7 @@
     <control controlID="64618A45-451A-44F9-86AE-D39DC7843AE7" controlTypeID="Icon" x="8" y="44" w="18" h="18" zOrder="1">
       <color>4281545523</color>
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="44D2F1B0-8C1F-478F-8308-57D673B7646F" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%91%E7%9A%84%E5%AE%B6(%E8%AE%AF%E6%81%AF%E6%B5%81%EF%BC%89">
+        <link targetPageID="D71F62CA-54BB-4E8F-82D1-BCDE367C64B4" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%AE%BE%E7%BD%AE">
           <area shape="0" alt="" ID="{0EAA6AE3-7B1C-4D69-8C56-75449E92F8A8}" coords="(0,0,18,18)"/>
         </link>
       </links>
@@ -57,9 +57,9 @@
           <textSize>14</textSize>
           <lineSpacing>0</lineSpacing>
         </control>
-        <control controlID="1566C3AB-0438-4187-A1C5-2FFAE90617A5" controlTypeID="Label" x="30" y="162" w="111" h="19" zOrder="3">
+        <control controlID="1566C3AB-0438-4187-A1C5-2FFAE90617A5" controlTypeID="Label" x="41" y="164" w="84" h="19" zOrder="3">
           <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-          <text>%E6%88%90%E5%91%98%E5%8F%82%E4%B8%8E%E6%97%B6%E9%97%B4%E6%AF%94%E4%BE%8B</text>
+          <text>%E6%88%90%E5%91%98%E5%8F%82%E4%B8%8E%E7%83%AD%E5%BA%A6</text>
           <lineSpacing>0</lineSpacing>
           <selectedIndex>-1</selectedIndex>
         </control>
@@ -69,9 +69,9 @@
           <textSize>14</textSize>
           <lineSpacing>0</lineSpacing>
         </control>
-        <control controlID="BA8F9AEA-B84D-418A-9F3E-D9D47A9DD2E7" controlTypeID="Label" x="218" y="164" w="56" h="19" zOrder="5">
+        <control controlID="BA8F9AEA-B84D-418A-9F3E-D9D47A9DD2E7" controlTypeID="Label" x="215" y="164" w="56" h="19" zOrder="5">
           <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-          <text>%E6%B4%BB%E5%8A%A8%E7%B1%BB%E5%9E%8B</text>
+          <text>%E5%BB%BA%E8%AE%BE%E9%87%8D%E7%82%B9</text>
           <lineSpacing>0</lineSpacing>
           <selectedIndex>-1</selectedIndex>
         </control>
@@ -85,7 +85,7 @@
     </control>
     <control controlID="EA684BB7-EAF6-47D7-9FC7-1A98AF46703F" controlTypeID="Label" x="26" y="453" w="146" h="19" zOrder="5">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>%E6%88%90%E5%91%98%E6%9C%AC%E5%91%A8%E6%B4%BB%E5%8A%A8%2F%E7%95%99%E8%A8%80%E6%AC%A1%E6%95%B0</text>
+      <text>%E6%88%90%E5%91%98%E6%9C%AC%E5%91%A8%E6%89%93%E5%8D%A1%2F%E7%95%99%E8%A8%80%E6%AC%A1%E6%95%B0</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>

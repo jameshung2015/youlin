@@ -1,0 +1,13 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="DA506E51-4BB2-4CC0-B75E-2E866C47ED47" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325">
+  <controls controlCount="1">
+    <control controlID="90211922-D2C3-482E-ACF7-BD5D86223D6C" controlTypeID="Image" x="-9" y="3" w="374" h="810" zOrder="0">
+      <URL>6E3D62911D5AA97224B0717E31ED59A8.jpg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

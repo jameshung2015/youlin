@@ -49,12 +49,12 @@
     </control>
     <control controlID="9E87DB5E-AD75-4F28-BA01-07DDA84FF71C" controlTypeID="Button" x="130" y="347" w="120" h="48" zOrder="5">
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="3A23BD2C-3AD6-41B3-9940-B55034AC2C2E" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%8F%91%E7%8E%B0%E9%A1%B5">
+        <link targetPageID="74AD6B18-711F-41B7-A3D4-93C4AC2E1BF6" linkType="ltPageLink" isApplyIncludePage="False" title="%E8%AF%9D%E9%A2%98-H5">
           <area shape="0" alt="" ID="{48883DBB-F062-4056-8356-FF4AE6D50255}" coords="(0,0,120,48)"/>
         </link>
       </links>
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>%E5%8F%91%E7%8E%B0</text>
+      <text>%E8%AF%9D%E9%A2%98</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>

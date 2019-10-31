@@ -210,9 +210,9 @@
       <startPoint>(374,0)</startPoint>
       <endPoint>(0,0)</endPoint>
     </control>
-    <control controlID="ED133AA5-42EB-4814-BD10-9332B06B54C3" controlTypeID="Label" x="138" y="41" w="135" h="24" zOrder="25">
+    <control controlID="ED133AA5-42EB-4814-BD10-9332B06B54C3" controlTypeID="Label" x="138" y="41" w="154" h="24" zOrder="25">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
-      <text>james++%E5%AE%B6%E5%BA%AD%E6%88%90%E5%91%98</text>
+      <text>james++group%E6%88%90%E5%91%98</text>
       <textSize>18</textSize>
       <textVAlign>VaTop</textVAlign>
       <lineSpacing>0</lineSpacing>

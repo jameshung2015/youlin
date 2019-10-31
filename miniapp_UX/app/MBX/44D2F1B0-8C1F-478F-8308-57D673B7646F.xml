@@ -41,7 +41,7 @@
     <control controlID="9F9A46DB-6F6C-4D73-BA41-D3762295F65C" controlTypeID="ScrollView" x="10" y="79" w="355" h="685" zOrder="3">
       <borderVisible>False</borderVisible>
       <groupChildrenDescriptors>
-        <control controlID="8C98D90D-DE7D-4111-9B90-F688EA3D5B7F" controlTypeID="ScrollViewContentPanel" x="0" y="-60" w="1559" h="776" zOrder="0">
+        <control controlID="8C98D90D-DE7D-4111-9B90-F688EA3D5B7F" controlTypeID="ScrollViewContentPanel" x="0" y="0" w="1559" h="776" zOrder="0">
           <alias>contentPanel</alias>
           <groupChildrenDescriptors>
             <control controlID="95E4B28C-07D5-491B-99D4-F1B6BE8DBF06" controlTypeID="Shape" x="95" y="206" w="157" h="26" zOrder="0">
@@ -54,7 +54,7 @@
             <control controlID="59C57A62-5FE4-465E-AC68-2CC443BDFBD0" controlTypeID="__group__" x="12" y="77" w="338" h="370" zOrder="1">
               <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
                 <link targetPageID="AD7346C6-E726-4176-B34D-C3A911B8B26C" linkType="ltPageLink" isApplyIncludePage="False" title="%E7%BC%96%E8%BE%91%E6%89%93%E5%8D%A1">
-                  <area shape="0" alt="" ID="{15A2A060-503F-4243-B61F-A0D4D926FB72}" coords="(0,0,375,812)"/>
+                  <area shape="0" alt="" ID="{15A2A060-503F-4243-B61F-A0D4D926FB72}" coords="(0,0,338,370)"/>
                 </link>
               </links>
               <groupChildrenDescriptors>

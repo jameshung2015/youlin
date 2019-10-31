@@ -435,7 +435,7 @@
                 </control>
                 <control controlID="24977AF7-D8C8-46B8-B5C8-78D5C7D001EB" controlTypeID="CheckBoxGroup" x="36" y="0" w="339" h="180" zOrder="1">
                   <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-                  <text>%E6%B8%B8%E6%88%8F%0D%0A%E9%98%85%E8%AF%BB%0D%0A%E8%BF%90%E5%8A%A8%0D%0A%E8%87%AA%E8%A1%8C%E6%B7%BB%E5%8A%A0+%E3%80%90%E3%80%82%E3%80%82%E3%80%82%E3%80%91</text>
+                  <text>%E6%B8%B8%E6%88%8F%0D%0A%E9%98%85%E8%AF%BB%0D%0A%E8%BF%90%E5%8A%A8%0D%0A%E8%87%AA%E8%A1%8C%E6%B7%BB%E5%8A%A0+%E3%80%90%E3%80%82%E3%80%82%E3%80%82%E3%80%91%0D%0A</text>
                   <textColor>4281545523</textColor>
                   <lineSpacing>0</lineSpacing>
                   <rowGap>12</rowGap>
