@@ -139,7 +139,7 @@
     </control>
     <control controlID="1CB372B5-C10D-4558-A3A5-D4EED87CFD16" controlTypeID="Master" x="0" y="198" w="373" h="1" zOrder="11" masterID="FA9BE515-6EC3-45B4-BAFA-562FA030A674">
       <groupChildrenDescriptors>
-        <control controlID="4B21A498-B8BC-4399-B365-BFBBCDF91B35" controlTypeID="Line" x="0" y="0" w="373" h="1" zOrder="0">
+        <control controlID="932A3968-A9A5-44CB-9B40-AECC2FF7A75D" controlTypeID="Line" x="0" y="0" w="373" h="1" zOrder="0">
           <color>4292730333</color>
           <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
           <textSize>14</textSize>
@@ -230,7 +230,7 @@
     </control>
     <control controlID="C67818C7-3686-46F1-9C90-476EEDB34A11" controlTypeID="Master" x="-2" y="251" w="373" h="1" zOrder="20" masterID="FA9BE515-6EC3-45B4-BAFA-562FA030A674">
       <groupChildrenDescriptors>
-        <control controlID="0FCE0C10-7E6B-4ABF-AA62-C6541CB6B628" controlTypeID="Line" x="0" y="0" w="373" h="1" zOrder="0">
+        <control controlID="5608A63E-216D-4020-98ED-ED98F269C5FD" controlTypeID="Line" x="0" y="0" w="373" h="1" zOrder="0">
           <color>4292730333</color>
           <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
           <textSize>14</textSize>

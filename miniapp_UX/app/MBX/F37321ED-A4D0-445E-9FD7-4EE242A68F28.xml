@@ -18,6 +18,7 @@
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>search%3A+%E8%89%BA%E6%9C%AF</text>
       <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
     </control>
   </controls>
   <param>
