@@ -1,5 +1,5 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="B808060E-BEAA-4C85-A868-B6E45D28C9FC" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="19">
+  <controls controlCount="18">
     <control controlID="1DF1887D-AE12-4B41-8F10-4F2DEA69BE86" controlTypeID="Image" x="0" y="162" w="371" h="650" zOrder="0">
       <URL>58602C1C0FF9FF93177C5FFF5B64D39C.jpg</URL>
     </control>
@@ -156,17 +156,6 @@
         <iconCode>62418</iconCode>
       </icon>
       <URL>91852B86E51F760894554368302F9800.svg</URL>
-    </control>
-    <control controlID="829D2CC2-2B46-4CF4-A4B8-DCFA3B7AA09C" controlTypeID="Shape" x="54" y="715" w="101" h="48" zOrder="8">
-      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="DA506E51-4BB2-4CC0-B75E-2E866C47ED47" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%B4%BB%E5%8A%A8%E5%88%B6%E4%BD%9C">
-          <area shape="0" alt="" ID="{C4450B75-8C83-4172-96C2-7AEF815116D6}" coords="(0,0,101,48)"/>
-        </link>
-      </links>
-      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>%E5%B9%B4%E5%BA%A6%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95</text>
-      <textSize>14</textSize>
-      <selectedIndex>-1</selectedIndex>
     </control>
   </controls>
   <param>
