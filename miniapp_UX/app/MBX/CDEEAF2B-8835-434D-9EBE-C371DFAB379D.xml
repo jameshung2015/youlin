@@ -1,6 +1,6 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="CDEEAF2B-8835-434D-9EBE-C371DFAB379D" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="42">
-    <control controlID="129C7F28-2C5C-45F2-8FFA-4CDD6E40B7DE" controlTypeID="Label" x="89" y="98" w="33" h="23" zOrder="0">
+  <controls controlCount="44">
+    <control controlID="129C7F28-2C5C-45F2-8FFA-4CDD6E40B7DE" controlTypeID="Label" x="89" y="98" w="34" h="23" zOrder="0">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%E5%A6%88%E5%A6%88</text>
       <textColor>4281545523</textColor>
@@ -18,7 +18,7 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="66836161-05AD-4923-B5A2-A10E0C32A6B9" controlTypeID="Label" x="305" y="100" w="58" h="19" zOrder="2">
+    <control controlID="66836161-05AD-4923-B5A2-A10E0C32A6B9" controlTypeID="Label" x="305" y="100" w="61" h="19" zOrder="2">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>2008%2F5%2F1</text>
       <textColor>4291611852</textColor>
@@ -42,7 +42,7 @@
       <startPoint>(1,0)</startPoint>
       <endPoint>(366,0)</endPoint>
     </control>
-    <control controlID="6E433E57-C236-4446-A3DA-E6859499CB0D" controlTypeID="Label" x="89" y="195" w="33" h="23" zOrder="5">
+    <control controlID="6E433E57-C236-4446-A3DA-E6859499CB0D" controlTypeID="Label" x="89" y="195" w="34" h="23" zOrder="5">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%E5%A5%B6%E5%A5%B6</text>
       <textColor>4281545523</textColor>
@@ -60,7 +60,7 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="04FA5F6D-D4F8-4884-B403-9A6A4D6D12D8" controlTypeID="Label" x="305" y="197" w="60" h="19" zOrder="7">
+    <control controlID="04FA5F6D-D4F8-4884-B403-9A6A4D6D12D8" controlTypeID="Label" x="305" y="197" w="61" h="19" zOrder="7">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>2009%2F1%2F3</text>
       <textColor>4291611852</textColor>
@@ -102,7 +102,7 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="1E2530E4-C62F-4F1B-8C7E-E4EF4A349E8D" controlTypeID="Label" x="305" y="294" w="66" h="19" zOrder="12">
+    <control controlID="1E2530E4-C62F-4F1B-8C7E-E4EF4A349E8D" controlTypeID="Label" x="305" y="294" w="69" h="19" zOrder="12">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>2012%2F6%2F21</text>
       <textColor>4291611852</textColor>
@@ -126,7 +126,7 @@
       <startPoint>(0,0)</startPoint>
       <endPoint>(365,0)</endPoint>
     </control>
-    <control controlID="25309C65-70A4-4E8B-B1CC-079CF35FAC82" controlTypeID="Label" x="89" y="389" w="33" h="23" zOrder="15">
+    <control controlID="25309C65-70A4-4E8B-B1CC-079CF35FAC82" controlTypeID="Label" x="89" y="389" w="34" h="23" zOrder="15">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%E8%80%81%E7%8E%8B</text>
       <textColor>4281545523</textColor>
@@ -144,7 +144,7 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="72803F51-93DC-4B59-A7F4-00BE5F13E575" controlTypeID="Label" x="305" y="391" w="66" h="19" zOrder="17">
+    <control controlID="72803F51-93DC-4B59-A7F4-00BE5F13E575" controlTypeID="Label" x="305" y="391" w="69" h="19" zOrder="17">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>2016%2F4%2F11</text>
       <textColor>4291611852</textColor>
@@ -168,9 +168,9 @@
       <startPoint>(0,0)</startPoint>
       <endPoint>(365,0)</endPoint>
     </control>
-    <control controlID="B3A44689-DBBC-444C-A626-AD6163A11EC2" controlTypeID="Label" x="89" y="487" w="85" h="23" zOrder="20">
+    <control controlID="B3A44689-DBBC-444C-A626-AD6163A11EC2" controlTypeID="Label" x="89" y="487" w="102" h="23" zOrder="20">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>%E7%88%B8%E7%88%B8+-+%E7%BE%A4%E4%B8%BB</text>
+      <text>%E7%88%B8%E7%88%B8+-+%E4%BA%8B%E4%BB%B6%E4%B8%BB</text>
       <textColor>4281545523</textColor>
       <textSize>17</textSize>
       <lineSpacing>0</lineSpacing>
@@ -186,7 +186,7 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="F7557C13-8F5D-44A2-9E4F-E15B50FAD53D" controlTypeID="Label" x="305" y="489" w="68" h="19" zOrder="22">
+    <control controlID="F7557C13-8F5D-44A2-9E4F-E15B50FAD53D" controlTypeID="Label" x="305" y="489" w="69" h="19" zOrder="22">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>2011%2F4%2F23</text>
       <textColor>4291611852</textColor>
@@ -210,9 +210,9 @@
       <startPoint>(374,0)</startPoint>
       <endPoint>(0,0)</endPoint>
     </control>
-    <control controlID="ED133AA5-42EB-4814-BD10-9332B06B54C3" controlTypeID="Label" x="138" y="41" w="154" h="24" zOrder="25">
+    <control controlID="ED133AA5-42EB-4814-BD10-9332B06B54C3" controlTypeID="Label" x="138" y="41" w="72" h="24" zOrder="25">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
-      <text>james++group%E6%88%90%E5%91%98</text>
+      <text>%E5%88%86%E4%BA%AB%E7%AE%A1%E7%90%86</text>
       <textSize>18</textSize>
       <textVAlign>VaTop</textVAlign>
       <lineSpacing>0</lineSpacing>
@@ -243,33 +243,76 @@
       </icon>
       <URL>40E39A09158BEC58EE5C5769A953E8C0.svg</URL>
     </control>
-    <control controlID="AEC82A91-BA4F-4B69-9F89-E0022C93C393" controlTypeID="Icon" x="149" y="612" w="64" h="64" zOrder="28">
-      <interactiveData>
-        <entry title="">
-          <area shape="0" alt="" ID="{AAF41F5B-FE24-4346-9EB7-1A0924F01EEC}" coords="(0,0,64,64)"/>
-          <events title="">
-            <event eventType="atClick" isChecked="True">
-              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
-                <target targetID="EED2E48B-15BF-4101-8C6C-AA02BF5F73C5" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
-                  <command name="Change Visibility" isChecked="True" descrition="">
-                    <param name="AniInterpolation" value="1" varType="3" description=""/>
-                    <param name="AniDuration" value="200" varType="3" description=""/>
-                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
-                    <param name="AniLoop" value="False" varType="11" description=""/>
-                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
-                    <param name="Delay" value="0" varType="3" description=""/>
-                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
-                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
-                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
-                    <param name="Value" value="0" varType="3" description=""/>
-                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
-                  </command>
-                </target>
-              </behaviour>
-            </event>
-          </events>
-        </entry>
-      </interactiveData>
+    <control controlID="99F6EC24-77E4-4571-BC56-79585F9B0561" controlTypeID="Label" x="65" y="691" w="56" h="19" zOrder="28">
+      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E6%96%B0%E5%A2%9E%E6%88%90%E5%91%98</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="C4EC52E4-69A7-4AD4-9E76-EC54841782FD" controlTypeID="Icon" x="341" y="238" w="24" h="24" zOrder="29">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62377</iconCode>
+      </icon>
+      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
+    </control>
+    <control controlID="4A01B481-FBD8-4B95-AF44-B6CA672440F2" controlTypeID="Icon" x="341" y="129" w="24" h="24" zOrder="30">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62377</iconCode>
+      </icon>
+      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
+    </control>
+    <control controlID="5DADE116-1A46-4D55-B752-3EF2F54D2A56" controlTypeID="Icon" x="341" y="335" w="24" h="24" zOrder="31">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62377</iconCode>
+      </icon>
+      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
+    </control>
+    <control controlID="A2D39994-E8E6-4AB0-98D5-4F191D4F17EC" controlTypeID="Icon" x="341" y="432" w="24" h="24" zOrder="32">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62377</iconCode>
+      </icon>
+      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
+    </control>
+    <control controlID="8005E2E5-8A1A-4549-A248-D88DB9E83FCC" controlTypeID="Icon" x="341" y="515" w="24" h="24" zOrder="33">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62377</iconCode>
+      </icon>
+      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
+    </control>
+    <control controlID="DBD4D6BF-8DEE-407B-A3A5-589BA86F0F39" controlTypeID="__group__" x="137" y="10" w="212" h="592" zOrder="34">
+      <isShow>False</isShow>
+      <groupChildrenDescriptors>
+        <control controlID="234A96EC-A08A-4039-95DC-F4A13A2DDDC0" controlTypeID="Image" x="0" y="395" w="203" h="197" zOrder="0">
+          <URL>CC382D394FA98F6305E1788148ADC814.png</URL>
+        </control>
+        <control controlID="319E01D2-11E4-4A60-81CE-06B199DF48AF" controlTypeID="Image" x="0" y="0" w="212" h="376" zOrder="1">
+          <URL>6C2DE816091B4E208A0DABD7B8ACC8AD.jpg</URL>
+        </control>
+        <control controlID="5DBC100A-9CF5-475D-B79C-809E06EEBF16" controlTypeID="Arrow" x="106" y="355" w="12" h="68" zOrder="2">
+          <color>4294901760</color>
+          <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+          <controlPoint>(5,27)</controlPoint>
+          <startPoint>(3,0)</startPoint>
+          <endPoint>(6,62)</endPoint>
+          <showEndArrow>1</showEndArrow>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="01CA6D60-264F-4BD3-B85D-B9648EAB8111" controlTypeID="Icon" x="65" y="617" w="64" h="64" zOrder="35">
       <icon>
         <ID/>
         <iconFontName>jdIonicons</iconFontName>
@@ -277,166 +320,89 @@
       </icon>
       <URL>D08755C22A9B40B6BF65036DEC8B44B4.svg</URL>
     </control>
-    <control controlID="99F6EC24-77E4-4571-BC56-79585F9B0561" controlTypeID="Label" x="153" y="657" w="56" h="19" zOrder="29">
+    <control controlID="F48EE9BA-858A-4BCA-820D-63CFBC9DD989" controlTypeID="Icon" x="160" y="617" w="64" h="64" zOrder="36">
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{673107E0-B6C6-4FDD-AD07-4C8989958E78}" coords="(0,0,64,64)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="DBD4D6BF-8DEE-407B-A3A5-589BA86F0F39" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="2" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62380</iconCode>
+      </icon>
+      <URL>A6FBF34563F171D2F9FF132D1B656C64.svg</URL>
+    </control>
+    <control controlID="4FF91F19-6672-4DEC-8B27-19773D5E5EAF" controlTypeID="Icon" x="260" y="617" w="64" h="64" zOrder="37">
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{673107E0-B6C6-4FDD-AD07-4C8989958E78}" coords="(0,0,64,64)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="788765C6-B6C4-419A-AACD-4038EE423ADA" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Change Visibility" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
+                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
+                    <param name="Value" value="2" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62200</iconCode>
+      </icon>
+      <URL>B9619BF0A6C60DFCDA16F57946ED93CE.svg</URL>
+    </control>
+    <control controlID="6C3EA1FB-0C2B-4298-B89A-C87FD836E0FB" controlTypeID="Label" x="182" y="691" w="28" h="19" zOrder="38">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>%E6%96%B0%E5%A2%9E%E6%88%90%E5%91%98</text>
+      <text>%E5%88%86%E4%BA%AB</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="C4EC52E4-69A7-4AD4-9E76-EC54841782FD" controlTypeID="Icon" x="341" y="238" w="24" h="24" zOrder="30">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62377</iconCode>
-      </icon>
-      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
-    </control>
-    <control controlID="4A01B481-FBD8-4B95-AF44-B6CA672440F2" controlTypeID="Icon" x="341" y="129" w="24" h="24" zOrder="31">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62377</iconCode>
-      </icon>
-      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
-    </control>
-    <control controlID="5DADE116-1A46-4D55-B752-3EF2F54D2A56" controlTypeID="Icon" x="341" y="335" w="24" h="24" zOrder="32">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62377</iconCode>
-      </icon>
-      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
-    </control>
-    <control controlID="A2D39994-E8E6-4AB0-98D5-4F191D4F17EC" controlTypeID="Icon" x="341" y="432" w="24" h="24" zOrder="33">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62377</iconCode>
-      </icon>
-      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
-    </control>
-    <control controlID="8005E2E5-8A1A-4549-A248-D88DB9E83FCC" controlTypeID="Icon" x="341" y="515" w="24" h="24" zOrder="34">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62377</iconCode>
-      </icon>
-      <URL>C12822B8AE3890BE32A0274B6AF9E5B5.svg</URL>
-    </control>
-    <control controlID="EEB39246-31C8-4725-988C-2C1684AC87B5" controlTypeID="Icon" x="307" y="515" w="24" h="24" zOrder="35">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62056</iconCode>
-      </icon>
-      <URL>AA5B6DEACFFE8A0928C7C0EB92A6212C.svg</URL>
-    </control>
-    <control controlID="5808F3C6-4511-426A-97C0-F2708A10D03E" controlTypeID="Label" x="231" y="499" w="66" h="19" zOrder="36">
-      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>(%E8%BD%AC%E6%8D%A2%E7%BE%A4%E4%B8%BB%EF%BC%89+</text>
-      <textColor>4294901760</textColor>
+    <control controlID="003F230E-53EC-41A0-87B6-0F725922A4DC" controlTypeID="Label" x="248" y="692" w="126" h="18" zOrder="39">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>%E5%88%86%E4%BA%AB%E6%9C%8B%E5%8F%8B%E5%9C%88%EF%BC%88%E5%8D%A1%E7%89%87%EF%BC%89</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="5A571F9A-9435-405C-930A-81FCCF57715B" controlTypeID="Label" x="272" y="569" w="94" h="19" zOrder="37">
-      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <text>(%E4%BB%85%E7%BE%A4%E4%B8%BB%E5%8F%AF%E5%88%A0%E5%87%8F%EF%BC%89+</text>
-      <textColor>4294901760</textColor>
-      <lineSpacing>0</lineSpacing>
-      <selectedIndex>-1</selectedIndex>
-    </control>
-    <control controlID="2A47F5CD-CB18-4C66-861C-169617C40FE0" controlTypeID="Line" x="291" y="510" w="19" h="20" zOrder="38">
-      <color>4294901760</color>
-      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <textColor>4294901760</textColor>
-      <textSize>14</textSize>
-      <lineSpacing>0</lineSpacing>
-      <selectedIndex>-1</selectedIndex>
-      <controlPoint>(6,8)</controlPoint>
-      <startPoint>(0,1)</startPoint>
-      <endPoint>(13,14)</endPoint>
-      <showEndArrow>1</showEndArrow>
-    </control>
-    <control controlID="D81C61FA-59B6-4D43-B849-AA097940D192" controlTypeID="Line" x="331" y="538" w="18" h="31" zOrder="39">
-      <color>4294901760</color>
-      <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
-      <textSize>14</textSize>
-      <lineSpacing>0</lineSpacing>
-      <selectedIndex>-1</selectedIndex>
-      <controlPoint>(6,18)</controlPoint>
-      <startPoint>(12,6)</startPoint>
-      <endPoint>(0,31)</endPoint>
-      <showStartArrow>1</showStartArrow>
-    </control>
-    <control controlID="EED2E48B-15BF-4101-8C6C-AA02BF5F73C5" controlTypeID="Image" x="114" y="657" w="241" h="221" zOrder="40">
+    <control controlID="788765C6-B6C4-419A-AACD-4038EE423ADA" controlTypeID="Image" x="22" y="141" w="236" h="419" zOrder="40">
       <isShow>False</isShow>
-      <caption>message+card</caption>
-      <interactiveData>
-        <entry title="">
-          <area shape="0" alt="" ID="{10C6BC03-649F-46E4-BD90-52246D0F677C}" coords="(0,0,60,60)"/>
-          <events title="">
-            <event eventType="atClick" isChecked="True">
-              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
-                <target targetID="EED2E48B-15BF-4101-8C6C-AA02BF5F73C5" IsNeedReplaceAsSelfID="True" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
-                  <command name="Change Visibility" isChecked="True" descrition="">
-                    <param name="AniInterpolation" value="1" varType="3" description=""/>
-                    <param name="AniDuration" value="200" varType="3" description=""/>
-                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
-                    <param name="AniLoop" value="False" varType="11" description=""/>
-                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
-                    <param name="Delay" value="0" varType="3" description=""/>
-                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
-                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
-                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
-                    <param name="Value" value="1" varType="3" description=""/>
-                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
-                  </command>
-                </target>
-              </behaviour>
-            </event>
-          </events>
-        </entry>
-      </interactiveData>
-      <URL>167BDEE96494609695F4189886AC5921.png</URL>
-    </control>
-    <control controlID="2D0CA60C-415E-46E1-81D6-30D0D5489FB6" controlTypeID="Icon" x="20" y="612" w="64" h="64" zOrder="41">
-      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="64438218-9303-421A-A9E6-05055BB4D91F" linkType="ltPageLink" isApplyIncludePage="False" title="group%E7%AE%A1%E7%90%86">
-          <area shape="0" alt="" ID="{1F5AB33F-BD6D-4F3F-A019-53F79821CA78}" coords="(0,0,64,64)"/>
-        </link>
-      </links>
-      <interactiveData>
-        <entry title="">
-          <area shape="0" alt="" ID="{AAF41F5B-FE24-4346-9EB7-1A0924F01EEC}" coords="(0,0,64,64)"/>
-          <events title="">
-            <event eventType="atClick" isChecked="True">
-              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
-                <target targetID="EED2E48B-15BF-4101-8C6C-AA02BF5F73C5" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
-                  <command name="Change Visibility" isChecked="True" descrition="">
-                    <param name="AniInterpolation" value="1" varType="3" description=""/>
-                    <param name="AniDuration" value="200" varType="3" description=""/>
-                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
-                    <param name="AniLoop" value="False" varType="11" description=""/>
-                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
-                    <param name="Delay" value="0" varType="3" description=""/>
-                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
-                    <param name="ForceFromInitValue" value="False" varType="11" description=""/>
-                    <param name="ForceSetVisible" value="False" varType="11" description=""/>
-                    <param name="Value" value="0" varType="3" description=""/>
-                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
-                  </command>
-                </target>
-              </behaviour>
-            </event>
-          </events>
-        </entry>
-      </interactiveData>
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62366</iconCode>
-      </icon>
-      <URL>CB1D4BD70EFAF9D0D63B9D0659D62AAA.svg</URL>
+      <URL>92D60D7A9431DBCC7541128EF997B37D.jpg</URL>
     </control>
   </controls>
   <param>

@@ -134,7 +134,7 @@
     </control>
     <control controlID="535AF6D0-44AE-452A-805D-58F77658CEBB" controlTypeID="Shape" x="11" y="70" w="364" h="30" zOrder="10">
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="F37321ED-A4D0-445E-9FD7-4EE242A68F28" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%86%85%E5%AE%B9%E9%A1%B5A">
+        <link targetPageID="74AD6B18-711F-41B7-A3D4-93C4AC2E1BF6" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%90%9C%E7%B4%A2%E9%A1%B5%E6%A1%86">
           <area shape="0" alt="" ID="{86919BA3-341D-45D6-BE67-4C260831243F}" coords="(0,0,364,30)"/>
         </link>
       </links>
@@ -221,7 +221,7 @@
       <groupChildrenDescriptors>
         <control controlID="0FCD9358-9BAC-44F8-A301-BD8410B8B094" controlTypeID="__group__" x="0" y="0" w="184" h="109" zOrder="0">
           <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-            <link targetPageID="9E447438-E61B-4C7D-9375-A0314B175804" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%B4%BB%E5%8A%A8%E8%8C%83%E6%9C%AC%E9%A1%B5">
+            <link targetPageID="F37321ED-A4D0-445E-9FD7-4EE242A68F28" linkType="ltPageLink" isApplyIncludePage="False" title="%E5%86%85%E5%AE%B9%E9%A1%B5%E6%A1%86">
               <area shape="0" alt="" ID="{6D334EB8-3E58-4A1D-A4E1-3F647F135011}" coords="(0,0,184,109)"/>
             </link>
           </links>
@@ -301,7 +301,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="3FB269AC-814A-4411-8F81-6F6C87BAD0F4" controlTypeID="__group__" x="36" y="218" w="310" h="223" zOrder="17">
+    <control controlID="3FB269AC-814A-4411-8F81-6F6C87BAD0F4" controlTypeID="__group__" x="41" y="235" w="310" h="223" zOrder="17">
       <isShow>False</isShow>
       <groupChildrenDescriptors>
         <control controlID="F928E499-5A78-4BB1-AFDF-435DA5582F99" controlTypeID="__group__" x="0" y="0" w="295" h="109" zOrder="0">

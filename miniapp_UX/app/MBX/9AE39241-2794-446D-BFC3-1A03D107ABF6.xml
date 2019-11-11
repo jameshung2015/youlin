@@ -72,8 +72,8 @@
       <color>4278827783</color>
       <borderColor>4278359040</borderColor>
       <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="B9D2B297-3648-40FE-B5D9-D975777DE28A" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%91%E7%9A%84%E5%AE%B6%E4%BA%BA">
-          <area shape="0" alt="" ID="{0297B5BF-473D-4451-B64B-0188585CC6D8}" coords="(0,0,345,45)"/>
+        <link targetPageID="44D2F1B0-8C1F-478F-8308-57D673B7646F" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%91%E7%9A%84%E5%AE%B6(%E8%AE%AF%E6%81%AF%E6%B5%81%EF%BC%89">
+          <area shape="0" alt="" ID="{FD8B8233-2F9B-4638-8723-B879C17B9BD4}" coords="(0,0,345,45)"/>
         </link>
       </links>
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>

@@ -1,5 +1,5 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="2C03ADB3-EFE3-446D-870D-1408EED065A2" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="28">
+  <controls controlCount="29">
     <control controlID="3EBCAF59-7501-4288-B2FB-47EE4CE9B5FD" controlTypeID="Label" x="138" y="41" w="72" h="24" zOrder="0">
       <font family="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91" displayName="%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>%E5%AE%B6%E5%BA%AD%E5%91%A8%E6%8A%A5</text>
@@ -144,10 +144,10 @@
       <text>I+wan+a+apple+watch+%2C+as+a+annervery+gift+.someone+help+me+%3F</text>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="6A36D397-0967-4FB7-AC78-274E2BDD7E88" controlTypeID="Icon" x="92" y="757" w="52" h="52" zOrder="14">
+    <control controlID="6A36D397-0967-4FB7-AC78-274E2BDD7E88" controlTypeID="Icon" x="107" y="767" w="34" h="34" zOrder="14">
       <interactiveData>
         <entry title="">
-          <area shape="0" alt="" ID="{BB9D1F62-44B5-4AC5-9CD3-86A1928E1E30}" coords="(0,0,52,52)"/>
+          <area shape="0" alt="" ID="{BB9D1F62-44B5-4AC5-9CD3-86A1928E1E30}" coords="(0,0,34,34)"/>
           <events title="">
             <event eventType="atClick" isChecked="True">
               <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
@@ -291,13 +291,26 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="A0D507FB-6D15-4E1B-A174-F5D83AFFA199" controlTypeID="Icon" x="227" y="767" w="37" h="37" zOrder="17">
+    <control controlID="A0D507FB-6D15-4E1B-A174-F5D83AFFA199" controlTypeID="Icon" x="172" y="767" w="37" h="37" zOrder="17">
       <icon>
         <ID/>
         <iconFontName>jdIonicons</iconFontName>
         <iconCode>62318</iconCode>
       </icon>
       <URL>DB7FC814F441C17601BBA7EA29C0CC4C.svg</URL>
+    </control>
+    <control controlID="906BF5D2-4A9F-4894-A8A5-5DA80BB26775" controlTypeID="Icon" x="229" y="769" w="34" h="34" zOrder="18">
+      <links eventType="AtClick" animate="AmSlideDown" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="CDEEAF2B-8835-434D-9EBE-C371DFAB379D" linkType="ltPageLink" isApplyIncludePage="False" title="%E6%88%90%E5%91%98%E7%AE%A1%E7%90%86">
+          <area shape="0" alt="" ID="{B2EA47DA-2140-42FE-A2B1-B0F5AD8A61AB}" coords="(0,0,34,34)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62380</iconCode>
+      </icon>
+      <URL>A6FBF34563F171D2F9FF132D1B656C64.svg</URL>
     </control>
   </controls>
   <param>
