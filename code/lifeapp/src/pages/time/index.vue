@@ -66,7 +66,7 @@
           <div class="item-bottom">
             <span>{{ item.created_at }}</span>
             <img class="more-btn" src="../../../static/images/more.png" mode="widthFix" @click="showCommit(index)"/>
-            <button :data-name="item.title" :data-path="'/pages/time/main?title=' + item.title" open-type="share" plain="true">
+            <button :data-name="item.title" open-type="share" plain="true">
               <img class="redirect-btn" src="../../../static/images/redirect.png" mode="widthFix"/>
             </button>
             <ul class="comment-list" :class="[showIndex[index]?'show-commit':'']">
@@ -155,8 +155,8 @@
         const eData = options.target.dataset
         // 此处可以修改 shareObj 中的内容
         shareObj.title = eData.name
-        shareObj.path = eData.path
-        // shareObj.path = '/pages/btnname/btnname?btn_name=' + eData.name
+        // shareObj.path = eData.path
+        shareObj.path = '/pages/time/main?title=' + eData.name
       }
       // 返回shareObj
       return shareObj
@@ -168,18 +168,22 @@
       this.Bus.$on('change1', () => {
         this.getList()
       })
-      this.getList()
       if (options.title) {
         this.searchVal = options.title
       } else {
         this.searchVal = ''
       }
+      this.getList()
     },
     onShow () {
+      if (!wx.getStorageSync('login')) { // 未登录
+        wx.navigateTo({url: '/pages/home/main'})
+      }
       this.showMask = false
       this.showPublish = false
       this.url = ''
       this.commentVal = ''
+      this.getList()
       /* this.searchVal = ''
       this.showIndex = []
       this.timeList = []

@@ -12,8 +12,6 @@
 	"compileType": "miniprogram",
 	"appid": "wx4ed4ef0a063500a1",
 	"projectname": "lifeapp",
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

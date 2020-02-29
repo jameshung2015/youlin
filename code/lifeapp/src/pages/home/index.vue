@@ -1,8 +1,15 @@
 <template>
   <div class="container home-panel">
-    <div class="login-txt">欢迎回到优临公社！</div>
-    <div v-if="isCeng" class="ceng" @touchmove.stop.prevent="touchmovehandle">
-      <button v-if="!userName" @getuserinfo="getVxUserInfo" open-type="getUserInfo" class="btn">点击微信授权</button>
+    <div class="login-txt">
+      欢迎回到优临公社！
+      <p class="register-txt">
+        功能说明：<br>
+        用户可在留言版上对活动或话题可以留言互动。 <br>
+        用户可以发送邀请微信友人参与自己建立的活动。 <br>
+        用户在参考活动上有问题，有客服可以提供解答。<br>
+        为正常使用优临需要您的授权登陆，如同意请点击如下按钮
+      </p>
+      <button @getuserinfo="getVxUserInfo" open-type="getUserInfo" class="btn">立即登陆</button>
     </div>
   </div>
 </template>
@@ -16,8 +23,7 @@
         id: '',
         userName: '',
         user: {},
-        userInfo: {},
-        isCeng: false
+        userInfo: {}
       }
     },
     onLoad: function (options) {
@@ -29,16 +35,16 @@
       }
     },
     onShow () {
-      this.isLogin()
+      // this.isLogin()
     },
     methods: {
       loginOk (res) { // 登录成功后的信息处理
         const that = this
         wx.setStorageSync('userInfo', res.userInfo)
+        wx.setStorageSync('login', true)
         that.user = res
         that.userInfo = res.userInfo
         that.userName = res.nickName
-        that.isCeng = false
         wx.login({
           success (res1) {
             if (res1.code) {
@@ -84,7 +90,6 @@
                 }
               })
             } else {
-              that.isCeng = true
             }
           }
         })
@@ -94,11 +99,9 @@
       getVxUserInfo (e) {
         if (e.target.userInfo) {
           this.userName = e.target.userInfo.nickName
-          this.isCeng = false
           this.isLogin()
         } else {
           this.userName = ''
-          this.isCeng = true
         }
       }
     }
@@ -109,21 +112,21 @@
   .login-txt{
     font-size:20px;
     color:#ccc;
-    line-height:400px;
+    padding-top:100px;
     text-align:center;
   }
-  .ceng {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size:18px;
+  .register-txt{
+    font-size:12px;
+    margin:50px 50px 0;
+    text-align:left;
+    line-height:24px;
+  }
+  .btn{
+    margin-top:40px;
+    width:120px;
+    background:cornflowerblue;
+    color:#fff;
+    border:1px solid cornflowerblue;
+    font-size:14px;
   }
 </style>

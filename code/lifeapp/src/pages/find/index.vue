@@ -65,6 +65,9 @@
       this.getData()
     },
     onShow () {
+      if (!wx.getStorageSync('login')) { // 未登录
+        wx.navigateTo({url: '/pages/home/main'})
+      }
       // this.searchVal = ''
       this.showMask = false
       // this.getData()

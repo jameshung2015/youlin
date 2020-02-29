@@ -137,7 +137,18 @@
         const day = this.newMultiArray[2][index[2]]
         const hour = this.newMultiArray[3][index[3]]
         const minute = this.newMultiArray[4][index[4]]
-        this.activityObj.active_time = year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':00'
+        const time = year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':00'
+        const date1 = new Date(time)
+        const date2 = new Date()
+        if (date1 < date2) {
+          wx.showToast({
+            title: '不能选择当前时间之前的时间',
+            icon: 'none',
+            duration: 2000
+          })
+        } else {
+          this.activityObj.active_time = time
+        }
       },
       // 选择人员
       selectMember () {

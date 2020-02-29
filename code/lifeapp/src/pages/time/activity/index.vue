@@ -124,6 +124,7 @@
       }
     },
     onLoad (options) {
+      this.id = ''
       this.content = ''
       this.title = ''
       this.longitude = ''
@@ -144,7 +145,7 @@
         const day = date.getDate()
         const hours = date.getHours()
         const minutes = date.getMinutes()
-        this.multiIndex = [0, month, day - 1, hours, minutes]
+        this.multiIndex = [0, month - 1, day - 1, hours, minutes]
       }
       bus.$on('changeMember1', res => {
         this.participant = res.map((item) => {
@@ -205,7 +206,18 @@
         const day = this.newMultiArray[2][index[2]]
         const hour = this.newMultiArray[3][index[3]]
         const minute = this.newMultiArray[4][index[4]]
-        this.active_time = year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':00'
+        const time = year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':00'
+        const date1 = new Date(time)
+        const date2 = new Date()
+        if (date1 < date2) {
+          wx.showToast({
+            title: '不能选择当前时间之前的时间',
+            icon: 'none',
+            duration: 2000
+          })
+        } else {
+          this.active_time = time
+        }
       },
       // 选择人员
       selectMember () {

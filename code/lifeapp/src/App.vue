@@ -27,6 +27,11 @@ export default {
     }
     // 返回shareObj
     return shareObj
+  },
+  onShow () {
+    if (!wx.getStorageSync('login')) { // 未登录
+      wx.navigateTo({url: '/pages/home/main'})
+    }
   }
 }
 </script>

@@ -6,28 +6,28 @@
       <button @click="changeIndex(2)" :class="[activeIndex==2?'active':'']"><span>发现阅览热度</span></button>
     </div>
     <div class="right-echart-panel">
-      <div v-show="activeIndex==0" class="echarts-wrap">
+      <div v-if="activeIndex==0" class="echarts-wrap">
         <template v-if="!showData1">
           <div class="no-data">暂无数据</div>
         </template>
         <template v-if="showData1">
-          <mpvue-echarts id="pie" :echarts="echarts" :onInit="initPieChart" canvasId="pie-chart"/>
+          <mpvue-echarts ref="pie" id="pie" :echarts="echarts" :onInit="initPieChart" canvasId="pie-chart"/>
         </template>
       </div>
-      <div v-show="activeIndex==1" class="echarts-wrap">
+      <div v-if="activeIndex==1" class="echarts-wrap">
         <template v-if="!showData2">
           <div class="no-data">暂无数据</div>
         </template>
         <template v-if="showData2">
-          <mpvue-echarts id="column" :echarts="echarts" :onInit="initColumnChart" canvasId="column-chart"/>
+          <mpvue-echarts ref="column" id="column" :echarts="echarts" :onInit="initColumnChart" canvasId="column-chart"/>
         </template>
       </div>
-      <div v-show="activeIndex==2" class="echarts-wrap">
+      <div v-if="activeIndex==2" class="echarts-wrap">
         <template v-if="!showData3">
           <div class="no-data">暂无数据</div>
         </template>
         <template v-if="showData3">
-          <mpvue-echarts id="line" :echarts="echarts" :onInit="initLineChart" canvasId="line-chart"/>
+          <mpvue-echarts ref="line" id="line" :echarts="echarts" :onInit="initLineChart" canvasId="line-chart"/>
         </template>
       </div>
     </div>
@@ -49,8 +49,6 @@
     },
     data () {
       return {
-        width: '',
-        height: '',
         showData1: false,
         showData2: false,
         showData3: false,
@@ -69,8 +67,6 @@
       }
     },
     onLoad () {
-      this.width = ''
-      this.height = ''
       this.showData1 = false
       this.showData2 = false
       this.showData3 = false
@@ -107,7 +103,6 @@
                 formatter: '{b} : {c} ({d}%)'
               },
               legend: {
-                orient: 'vertical',
                 left: 'center',
                 bottom: 40,
                 data: res.data.leaving_message
@@ -326,54 +321,56 @@
         })
       },
       initPieChart (canvas, width, height) {
-        this.width = width
-        this.height = height
         chart1 = echarts.init(canvas, null, {
           width: width,
           height: height
         })
         canvas.setChart(chart1)
+        chart1.clear()
         chart1.setOption(this.option1)
         return chart1
       },
       initColumnChart (canvas, width, height) {
         chart2 = echarts.init(canvas, null, {
-          width: this.width,
-          height: this.height
+          width: width,
+          height: height
         })
         canvas.setChart(chart2)
+        chart2.clear()
         chart2.setOption(this.option2)
         return chart2
       },
       initLineChart (canvas, width, height) {
         chart3 = echarts.init(canvas, null, {
-          width: this.width,
-          height: this.height
+          width: width,
+          height: height
         })
         canvas.setChart(chart3)
+        chart3.clear()
         chart3.setOption(this.option3)
         return chart3
       },
       changeIndex (index) {
+        const that = this
         this.activeIndex = index
         if (index === 0) {
-          this.$nextTick(() => {
-            if (chart1) {
-              chart1.resize()
+          this.$nextTick(() => { // 渲染需要延时执行
+            if (that.$refs.pie) {
+              that.$refs.pie.init()
             }
           })
         }
         if (index === 1) {
-          this.$nextTick(() => {
-            if (chart2) {
-              chart2.resize()
+          this.$nextTick(() => { // 渲染需要延时执行
+            if (that.$refs.column) {
+              that.$refs.column.init()
             }
           })
         }
         if (index === 2) {
-          this.$nextTick(() => {
-            if (chart3) {
-              chart3.resize()
+          this.$nextTick(() => { // 渲染需要延时执行
+            if (that.$refs.line) {
+              that.$refs.line.init()
             }
           })
         }

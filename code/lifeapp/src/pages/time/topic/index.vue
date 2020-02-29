@@ -86,6 +86,7 @@
       }
     },
     onLoad (options) {
+      this.id = ''
       this.content = ''
       this.title = ''
       this.longitude = ''
@@ -153,7 +154,6 @@
       // 选择图片
       selImg () {
         const that = this
-        console.log(3 - that.images.length)
         wx.chooseImage({
           count: parseInt(3 - that.images.length), // 默认9
           sizeType: ['compressed'], // 可以指定是原图还是压缩图，默认二者都有
