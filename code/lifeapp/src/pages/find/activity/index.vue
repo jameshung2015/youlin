@@ -8,7 +8,7 @@
     </div>
     <div class="find-content">
       <ul class="result-list find-result-activity">
-        <li v-for="item in resultList" :key="item.active_id" class="activity-item clearfix" @click="toPage(item)">
+        <li v-for="item in resultList" :key="item.active_id" class="activity-item clearfix">
           <div class="time">
             <span class="day">{{ item.day }}</span>
             <span class="month">{{ item.month }}月</span>
@@ -19,7 +19,7 @@
             <p class="text-ellipsis">#{{ item.title }}#</p>
             <p class="price">{{ (item.price=='0' || item.price=='0.00') ? '免费' : item.price+'元' }}</p>
             <span v-if="item.parted" class="joined">已参与</span>
-            <span v-if="!item.parted" class="join">参与</span>
+            <span v-if="!item.parted" class="join" @click="toPage(item.id)">参与</span>
           </div>
 
         </li>
@@ -51,7 +51,7 @@
     onShareAppMessage: function () {
       return {
         title: '优临',
-        path: '/pages/time/main', // 默认是当前页面，必须是以‘/’开头的完整路径
+        path: '/pages/home/main', // 默认是当前页面，必须是以‘/’开头的完整路径
         imageUrl: 'https://www.youlings.cn/images/logo.jpg' // 自定义图片路径，可以是本地文件路径、代码包文件路径或者网络图片路径，支持PNG及JPG，不传入 imageUrl 则使用默认截图。显示图片长宽比是 5:4
       }
     },
@@ -122,9 +122,10 @@
         })
       },
       // 跳转到已参与活动
-      toPage (item) {
+      toPage (id) {
+        wx.navigateTo({url: '/pages/find/activityInner/main?id=' + id})
         // 判断是否有权限
-        if (!item.authority) {
+        /* if (!item.authority) {
           this.showDialog = true
         } else {
           this.$request(this.$baseUrl + '/api/system/active/click', 'GET', {
@@ -132,7 +133,7 @@
           }).then((res) => {
           })
           wx.navigateTo({url: '/pages/find/activityInner/main?image=' + escape(item.image ? item.image : '') + '&title=' + item.title + '&id=' + item.active_id + '&content=' + item.content + '&authority=' + item.authority})
-        }
+        } */
       }
     }
   }

@@ -5,7 +5,7 @@ import { request } from './utils/request'
 Vue.config._mpTrace = true
 Vue.config.productionTip = false
 Vue.prototype.$request = request
-Vue.prototype.$baseUrl = 'https://www.youlings.cn'
+Vue.prototype.$baseUrl = 'https://www.youlings.cn'// http://60.205.182.89'
 Vue.prototype.Bus = new Vue()
 App.mpType = 'app'
 

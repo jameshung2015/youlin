@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "报名表单",
+  "navigationBarBackgroundColor": "#ffbd33",
+  "usingComponents": {
+    "i-icon": "../../../static/iview/icon/index",
+    "i-input": "../../../static/iview/input/index",
+    "i-modal": "../../../static/iview/modal/index"
+  }
+}

@@ -1,39 +1,30 @@
 <template>
   <div class="container user-panel">
-    <div class="user-content">
+    <div class="top-panel">
+      <img class='background-img' src="../../../static/images/user-bg.png" mode="aspectFit"/>
       <div class="user-info">
-        <i-row i-class="user-info">
-          <i-col span="8">
-            <img class="user-avatar" :src="userInfo.avatarUrl" mode="widthFix"/>
-          </i-col>
-          <i-col span="16">
-            <p class="user-name">{{  userInfo.nickName }}</p>
-            <p class="user-phone">{{ userInfo.mobile }}</p>
-          </i-col>
-        </i-row>
+        <i-avatar i-class="user-avatar" :src="userInfo.avatarUrl" size="large" shape="circle"></i-avatar>
+        <p class="user-name">{{  userInfo.nickName }}</p>
       </div>
-      <ul class="content-panel">
-        <li>
-          <navigator url="./addressBook/main" hover-class="none">
-            <img class="item-img" src="../../../static/images/connect.png" mode="widthFix"/>
-            <span>通讯录</span>
-          </navigator>
-        </li>
-        <li>
-          <navigator url="./echarts/main" hover-class="none">
-            <img class="item-img" src="../../../static/images/echart.png" mode="widthFix"/>
-            <span>统计表</span>
-          </navigator>
-        </li>
-        <li>
-          <button class="concat-btn" open-type="contact" bindcontact="handleContact">
-            <img class="item-img" src="../../../static/images/concat.png" mode="widthFix"/>
-            <span>客服</span>
-          </button>
-          <!--<span>客服</span>-->
-        </li>
-
-      </ul>
+    </div>
+    <div class="box-panel"></div>
+    <div class="main-panel">
+      <i-cell-group>
+        <i-cell i-class="link-cell" title="我的报名" is-link url="/pages/user/myActivity/main">
+          <img class="cell-icon-img" src="../../../static/images/baoming.png" mode="widthFix" slot="icon"/>
+        </i-cell>
+        <i-cell i-class="link-cell" title="数据中心" is-link url="/pages/user/dataCenter/main">
+          <img class="cell-icon-img" src="../../../static/images/shuju.png" mode="widthFix" slot="icon"/>
+        </i-cell>
+        <button class="concat-btn" open-type="contact" bindcontact="handleContact">
+          <i-cell i-class="link-cell" title="联系客服" is-link>
+            <img class="cell-icon-img" src="../../../static/images/kefu.png" mode="widthFix" slot="icon"/>
+          </i-cell>
+        </button>
+        <i-cell i-class="link-cell" title="使用指南" is-link @click="toPage">
+          <i-icon class="cell-icon-icon" type="feedback_fill" size="17" slot="icon" color="#2DCCA4"/>
+        </i-cell>
+      </i-cell-group>
     </div>
   </div>
 </template>
@@ -43,6 +34,7 @@
     name: 'UserPanel',
     data () {
       return {
+        url: '',
         userInfo: {
           headimgurl: '',
           nickName: '',
@@ -53,7 +45,7 @@
     onShareAppMessage: function () {
       return {
         title: '优临',
-        path: '/pages/time/main', // 默认是当前页面，必须是以‘/’开头的完整路径
+        path: '/pages/home/main', // 默认是当前页面，必须是以‘/’开头的完整路径
         imageUrl: 'https://www.youlings.cn/images/logo.jpg' // 自定义图片路径，可以是本地文件路径、代码包文件路径或者网络图片路径，支持PNG及JPG，不传入 imageUrl 则使用默认截图。显示图片长宽比是 5:4
       }
     },
@@ -61,84 +53,99 @@
       this.userInfo = wx.getStorageSync('userInfo')
     },
     onShow () {
+      const that = this
       if (!wx.getStorageSync('login')) { // 未登录
         wx.navigateTo({url: '/pages/home/main'})
+      }
+      that.$request(that.$baseUrl + '/api/instructions', 'GET').then((res) => {
+        that.url = res.data
+      })
+    },
+    methods: {
+      // 跳转到详情
+      toPage () {
+        wx.navigateTo({url: '/pages/user/empty/main?url=' + this.url})
       }
     }
   }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .user-panel{
     position:relative;
+    .top-panel{
+      position:relative;
+      width:100%;
+      height:178px;
+      .background-img{
+        position:absolute;
+        width:100%;
+        height:100%;
+        left:0;
+        top:0;
+      }
+      .user-info{
+        position:absolute;
+        width:100%;
+        text-align: center;
+        bottom:0;
+        .user-name{
+          font-size:18px;
+          font-family:PingFang SC;
+          font-weight:400;
+          color:#333333;
+          line-height:38px;
+        }
+      }
+    }
+    .box-panel{
+      width:100%;
+      height:12px;
+      background:#F0F0F0;
+    }
+    .main-panel{
+      .cell-icon-img{
+        margin-left:14px;
+        margin-right:10px;
+        width:15.5px;
+        height:auto;
+      }
+      .cell-icon-icon{
+        margin-left:12px;
+        margin-right:6px;
+        height:auto;
+      }
+      .concat-btn{
+        border:none;
+        padding:0;
+        text-align: left;
+        line-height:0;
+        background:transparent;
+      }
+      .concat-btn::after{
+        border:none;
+      }
+    }
   }
-  .user-content{
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:76px;
-    border-left: dotted 4px #ffcc00;
-  }
-  .user-info{
-    position:absolute;
-    width:250px;
-    height:72px;
-    top:110px;
-    left:-37px;
-  }
-  .user-avatar{
-    width:72px;
-    height:72px;
-    border-radius:36px;
-    border:1px solid #ffcc00;
-  }
-  .user-name{
-    padding-left:10px;
-    margin-top:15px;
-    line-height:20px;
-    font-size: 20px;
-    color: #400181;
-  }
-  .user-phone{
-    padding-left:10px;
-    font-size: 12px;
-    line-height:28px;
-    color: #999999;
-  }
-  .content-panel{
-    position: absolute;
-    min-width:100px;
-    top:50%;
-    left:47px;
-    transform:translateY(-50%);
-  }
-  .content-panel .item-img{
-    display: inline-block;
-    width:36px;
-    height:auto;
-    margin-right:10px;
-    vertical-align: middle;
-  }
-  .content-panel .concat-btn{
-    border:none;
-    height:40px;
-    padding:0;
-    text-align: left;
-    line-height:0;
-    font-size:15px;
-    background:transparent;
-  }
-  .content-panel .concat-btn::after{
-    border:none;
-  }
-  .content-panel li{
-    margin-bottom:27px;
-  }
-  .content-panel li span{
-    display: inline-block;
-    width:45px;
-    font-size: 15px;
-    color: #666666;
-    vertical-align: middle;
+</style>
+<style lang="scss">
+  .user-panel{
+    .user-avatar{
+      width:75px;
+      height:75px;
+      border-radius:50%;
+      border:3px solid #fff;
+    }
+    .link-cell{
+      border-top:0;
+      padding:13.5px 11.5px 13.5px 0;
+      line-height:14.5px;
+      vertical-align:middle;
+      font-size:14px;
+      color:#333333;
+      .i-cell-ft::after{
+        color:#2A2A2A;
+      }
+    }
   }
 </style>

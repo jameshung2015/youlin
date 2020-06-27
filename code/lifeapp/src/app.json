@@ -2,19 +2,21 @@
   "pages": [
     "pages/home/main",
     "pages/time/main",
-    "pages/time/activity/main",
     "pages/time/topic/main",
+    "pages/time/setCity/main",
+    "pages/time/setMember/main",
+    "pages/time/setDetail/main",
+    "pages/time/signForm/main",
     "pages/time/empty/main",
     "pages/find/main",
     "pages/find/activity/main",
     "pages/find/activityInner/main",
-    "pages/find/joinActivity/main",
+    "pages/find/createPoster/main",
     "pages/find/topic/main",
-    "pages/find/joinTopic/main",
     "pages/user/main",
-    "pages/user/addressBook/main",
-    "pages/user/addressBook/selectMember/main",
-    "pages/user/echarts/main"
+    "pages/user/myActivity/main",
+    "pages/user/dataCenter/main",
+    "pages/user/empty/main"
   ],
   "window": {
     "withShareTicket":true,
@@ -24,9 +26,9 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#999",
+    "color": "#4d4d4d",
     "backgroundColor": "#fafafa",
-    "selectedColor": "#333",
+    "selectedColor": "#4d4d4d",
     "borderStyle": "white",
 
     "list": [

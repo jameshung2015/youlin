@@ -2,29 +2,13 @@
   <div class="container find-panel">
     <div class="search-panel">
       <i-panel class="search-panel">
-        <img class="search-img" src="../../../static/images/search.png" mode="widthFix"/>
-        <input class="search-input" v-model="searchVal" mode="wrapped" placeholder="在这里搜索内容" @focus="showMask=true;" @blur="doSearch"/>
+        <i-icon type="search" size="14" class="search-img" color="#cac8c8"/>
+        <input class="search-input" v-model="searchVal" mode="wrapped" placeholder="搜索精彩活动" @focus="showMask=true;" @blur="doSearch"/>
       </i-panel>
     </div>
     <div class="find-content">
-      <div class="tab-panel">
-        <div class="tab-item" :class="[activeItem=='activity'?'active':'']" @click="changeType('activity')">
-          <img v-if="activeItem=='activity'" src="../../../static/images/activity-active.png" mode="widthFix"/>
-          <img v-if="activeItem!='activity'" src="../../../static/images/activity.png" mode="widthFix"/>
-        </div>
-        <div class="tab-item" :class="[activeItem=='topic'?'active':'']" @click="changeType('topic')">
-          <img v-if="activeItem=='topic'" src="../../../static/images/topic-active.png" mode="widthFix"/>
-          <img v-if="activeItem!='topic'" src="../../../static/images/topic.png" mode="widthFix"/>
-        </div>
-      </div>
-      <ul v-if="activeItem=='activity'" class="result-list find-result-activity">
-        <li v-for="item in resultList" :key="item.type_id" class="activity-item" @click="jumpActivity(item)">
-          <img :src="item.background_url" mode="aspectFill"/>
-          <div :style="'color:' + item.color + ';'">{{ item.title }}</div>
-        </li>
-      </ul>
       <ul v-if="activeItem=='topic'" class="result-list find-result-topic">
-        <li v-for="item in resultList1" :key="item.type_id" class="topic-item" @click="jumpTopic(item)">
+        <li v-for="item in resultList" :key="item.type_id" class="topic-item" @click="jumpTopic(item)">
           <img :src="item.image" mode="aspectFill"/>
           <div>
             <p class="title text-ellipsis">{{ item.title }}</p>
@@ -34,7 +18,6 @@
       </ul>
     </div>
     <div class="mask" :class="[showMask ? 'mask-show' : '']"></div>
-    <!--<button class="concat-btn" open-type="contact" bindcontact="handleContact"></button>-->
   </div>
 </template>
 
@@ -43,18 +26,17 @@
     name: '',
     data () {
       return {
-        activeItem: 'activity', // activity
+        activeItem: 'topic', // activity
         searchVal: '',
         showMask: false,
         height: wx.getSystemInfoSync().windowHeight - 175,
-        resultList: [],
-        resultList1: []
+        resultList: []
       }
     },
     onShareAppMessage: function () {
       return {
         title: '优临',
-        path: '/pages/time/main', // 默认是当前页面，必须是以‘/’开头的完整路径
+        path: '/pages/home/main', // 默认是当前页面，必须是以‘/’开头的完整路径
         imageUrl: 'https://www.youlings.cn/images/logo.jpg' // 自定义图片路径，可以是本地文件路径、代码包文件路径或者网络图片路径，支持PNG及JPG，不传入 imageUrl 则使用默认截图。显示图片长宽比是 5:4
       }
     },
@@ -68,29 +50,17 @@
       if (!wx.getStorageSync('login')) { // 未登录
         wx.navigateTo({url: '/pages/home/main'})
       }
-      // this.searchVal = ''
       this.showMask = false
-      // this.getData()
     },
     onPullDownRefresh: function () {
       this.getData()
     },
     methods: {
-      // tab切换
-      changeType (type) {
-        const that = this
-        that.activeItem = type
-        that.getData()
-      },
       // 搜索
       doSearch () {
         this.showMask = false
         // 跳转页面
-        if (this.activeItem === 'activity') {
-          wx.navigateTo({url: '/pages/find/activity/main?search=' + this.searchVal})
-        } else {
-          this.getData()
-        }
+        this.getData()
       },
       // 获取数据
       getData () {
@@ -101,28 +71,14 @@
           icon: 'none',
           mask: true
         })
-        if (that.activeItem === 'activity') { // 活动
-          that.$request(that.$baseUrl + '/api/system/active/index', 'GET', {
-            searchVal: that.searchVal
-          }).then((res) => {
-            that.resultList = res.data
-            wx.stopPullDownRefresh()
-            wx.hideNavigationBarLoading()
-          })
-        } else { // 话题
-          that.$request(that.$baseUrl + '/api/system/subject/all', 'GET', {
-            searchVal: that.searchVal
-          }).then((res) => {
-            that.resultList1 = res.data
-            wx.stopPullDownRefresh()
-            wx.hideNavigationBarLoading()
-            wx.hideToast()
-          })
-        }
-      },
-      // 活动跳转
-      jumpActivity (item) {
-        wx.navigateTo({url: '/pages/find/activity/main?title=' + item.title + '&id=' + item.type_id})
+        that.$request(that.$baseUrl + '/api/second/active/type', 'GET', {
+          searchVal: that.searchVal
+        }).then((res) => {
+          that.resultList = res.data
+          wx.stopPullDownRefresh()
+          wx.hideNavigationBarLoading()
+          wx.hideToast()
+        })
       },
       // 话题跳转
       jumpTopic (item) {
@@ -132,52 +88,46 @@
   }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .find-panel{
     position:relative;
+    width:100%;
+    height:100%;
     box-sizing: border-box;
     overflow:hidden;
-  }
-  .find-panel .search-panel{
-    position:relative;
-    z-index:100;
-    width:calc(100% - 25px);
-    margin:4px auto 0;
+    .search-panel{
+      position:relative;
+      z-index:100;
+      width:calc(100% - 25px);
+      margin:8px auto 20px;
+      height: 30px;
+      line-height: 30px;
+      .search-img{
+        position:absolute;
+        left:39px;
+        top:0;
+        line-height:28px;
+        z-index:1000;
+      }
+      .search-input{
+        height: 30px;
+        line-height: 30px;
+        background-color: #f7f7f7;
+        border-radius: 14px;
+        padding-left:58px;
+        font-size: 12px;
+        color: #cac8c8;
+        border:none;
+      }
+    }
   }
   .find-panel .find-content{
     width:calc(100% - 25px);
+    height:calc(100% - 65px);
     margin: 0 auto;
   }
-  .tab-panel{
-    position:relative;
-    height:52px;
-    border-bottom: 0.5px solid #c9c9c9;
-    margin-bottom:22px;
-  }
-  .tab-panel .tab-item{
-    width:50%;
-    float:left;
-    text-align:center;
-    box-sizing: border-box;
-  }
-  .tab-panel .tab-item:first-child{
-    padding-left:10%;
-  }
-  .tab-panel .tab-item:last-child{
-    padding-right:10%;
-  }
-  .tab-panel .tab-item img{
-    position: relative;
-    top:9px;
-    width:40px;
-    height:auto;
-  }
-  .tab-panel .tab-item.active img {
-    width: 44px;
-    height: auto;
-  }
   .result-list{
-    height: calc(100vh - 115px);
+    height: calc(100% - 10px);
     overflow:auto;
   }
   .activity-item{
@@ -239,14 +189,6 @@
     font-size: 11px;
     color: #666666;
   }
-  .find-panel .search-panel .search-img{
-    display: block;
-    width:18px;
-    height:19px;
-    position:absolute;
-    left:19px;
-    top:6px;
-  }
   .mask{
     width:100%;
     position:fixed;
@@ -263,17 +205,3 @@
   }
 </style>
 
-<style>
-  .find-panel .search-input{
-    width: 100%;
-    height: 30px;
-    line-height:30px;
-    border-radius: 14px;
-    border: solid 0.5px #ffcc00;
-    font-size:12px;
-    color:#999;
-    padding-left:58px;
-    background-color:#fff;
-    box-sizing:border-box;
-  }
-</style>
