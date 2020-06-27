@@ -19,6 +19,7 @@ use App\Models\User;
 use App\Models\UserActive;
 use App\Models\UserSubject;
 use App\Models\UserTime;
+use App\Services\SmallProgram\ContentSecurityService;
 use App\Services\SmallProgram\SubMessageService;
 use App\Unit;
 use Carbon\Carbon;
@@ -113,6 +114,15 @@ class SystemController extends Controller
             DB::transaction(function () use ($request) {
                 $user        = $request->user();
                 $params      = $request->all();
+
+                // 验证
+                $validate = new ContentSecurityService();
+                if (!$validate->validateAll([
+                    $params['title']  ?? '', $params['content'] ?? '', $params['label'] ?? '',
+                ])) {
+                    return $this->error('您发布的内容涉及敏感词汇，请不要上传');
+                }
+
                 $participant = array_unique(array_filter($params['participant']));
                 array_push($participant, $user['user_id']);
                 if (!$participant) {
@@ -178,8 +188,17 @@ class SystemController extends Controller
                 $user        = $request->user();
                 $participant = array_unique(array_filter($params['participant']));
                 array_push($participant, $user['user_id']);
+
                 if (!$participant) {
                     throw new \Exception('没有参与人');
+                }
+
+                // 验证
+                $validate = new ContentSecurityService();
+                if (!$validate->validateAll([
+                    $params['title'] ?? '', $params['content'] ?? '', $params['label'] ?? '',
+                ])) {
+                    return $this->error('您发布的内容涉及敏感词汇，请不要上传');
                 }
 
                 $system = SystemSubject::query()->whereKey($params['subject'])->first();

@@ -27,33 +27,33 @@ class HttpRequestServices
         return $result;
     }
 
-    public static function httpPost($url, array $params = [], array $header = [])
+    public static function httpPost($url, $params = [], array $header = [], $isJsonEncode = true)
     {
         $instance = static::instance();
-        $result   = $instance->requestPost($url, $params, $header);
+        $result   = $instance->requestPost($url, $params, $header, $isJsonEncode);
         $instance->afterHttpRequest($url, $params, $header, $result, 'HTTP_POST');
         return $result;
     }
 
-    public function requestPost($url, $params, $header)
+    public function requestPost($url, $params, $header, $isJsonEncode)
     {
         $ch = curl_init($url);
-        curl_setopt($ch,CURLOPT_HEADER,0);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //返回数据不直接输出
-        curl_setopt($ch, CURLOPT_ENCODING, "gzip"); //指定gzip压缩
+        curl_setopt($ch, CURLOPT_ENCODING, "gzip");  //指定gzip压缩
         //add header
-        if(!empty($header)) {
+        if (!empty($header)) {
             curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         }
         //add ssl support
-        if(substr($url, 0, 5) == 'https') {
+        if (substr($url, 0, 5) == 'https') {
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);    //SSL 报错时使用
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);    //SSL 报错时使用
         }
         //add post data support
-        if(!empty($params)) {
-            curl_setopt($ch,CURLOPT_POST, 1);
-            curl_setopt($ch,CURLOPT_POSTFIELDS, json_encode($params));
+        if (!empty($params)) {
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $isJsonEncode ? json_encode($params) : $params);
         }
         $content = curl_exec($ch); //执行并存储结果
         curl_close($ch);

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\SmallProgram\ContentSecurityService;
 use Illuminate\Http\Request;
 use Exception;
 
@@ -78,6 +79,12 @@ class UploadController extends Controller
         if (!in_array(strtolower($file->getClientOriginalExtension()), $fileType)) {
             throw new Exception(sprintf('导入失败！仅支持 %s格式的文件', implode(',', $fileType)));
         }
+
+        // 验证
+//        $validate = new ContentSecurityService();
+//        if (!$validate->validateAll([$file->getPathname()])) {
+//            throw new Exception('上传的图片不符合微信官方要求');
+//        }
 
         return $file;
     }

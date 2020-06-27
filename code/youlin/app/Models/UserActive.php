@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * 用户发布的活动列表
+ *
  * @property $title,
  * @property $user_id
  * @property $content
@@ -14,6 +15,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @property $latitude
  * @property $label
  * @property $active_time
+ * @property $cover_url
  * Class UserActive
  * @package App\Models
  */
@@ -24,12 +26,17 @@ class UserActive extends Model
 
     protected $fillable = [
         'title',
+        'detail',
         'user_id',
         'content',
         'longitude',
         'latitude',
         'label',
+        'introduction',
         'active_time',
+        'cover_url',
+        'address',
+        'coverIndex',
     ];
 
     public function times()
@@ -39,7 +46,15 @@ class UserActive extends Model
 
     public function logs()
     {
-        return $this->morphOne(UserTime::class,'modelable','modelable', 'model_able', 'model_id');
+        return $this->morphOne(UserTime::class, 'modelable', 'modelable', 'model_able', 'model_id');
     }
 
+    public function getActiveTimeAttribute($value)
+    {
+        if ($value) {
+            return substr($value, 0, 10);
+        }
+
+        return null;
+    }
 }

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+use App\Services\SmallProgram\SubMessageService;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
@@ -74,5 +76,26 @@ class Controller extends BaseController
             'code'    => $code,
             'token'   => $authValidate->getToken(),
         ]);
+    }
+
+    // 订阅活动开始消息
+    protected function sendMessage($subscribe, $userId, $params)
+    {
+        try {
+            // 发生消息推送
+            if ($subscribe) {
+                $user = User::query()->whereKey($userId)->first();
+                (new SubMessageService)->sendSubActiveMessage($user->wx_openid, $params['title'], $user->nickname, $params['label'], $params['active_time']);
+            }
+        } catch (\Exception $ex) {
+
+        }
+    }
+
+    protected function userId()
+    {
+        $user = request()->user();
+
+        return  $user['user_id'];
     }
 }

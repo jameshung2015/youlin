@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
 
 /**
  * @property $id
@@ -35,12 +36,13 @@ class ApiLog extends Model
 
     }
 
-    public static function logInfo($url ,$request, $response, $name = '', $sign = 0)
+    public static function logInfo($url, $request, $response, $name = '', $sign = 0)
     {
         $model           = new static();
-        $model->url  = $url;
+        $model->url      = $url;
         $model->request  = $request;
-        $model->response = $response;
+//        $model->response = $response;
+        Log::info($response);
         $model->name     = $name;
         $model->sign     = $sign;
         $model->save();

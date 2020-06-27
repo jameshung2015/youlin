@@ -7,6 +7,7 @@ use App\Models\TimeParty;
 use App\Models\UserActive;
 use App\Http\Requests\ActiveCreate;
 use App\Models\UserTime;
+use App\Services\SmallProgram\ContentSecurityService;
 use App\Services\SmallProgram\SubMessageService;
 use Illuminate\Support\Facades\DB;
 use App\Unit;
@@ -46,6 +47,15 @@ class ActiveController extends Controller
         $time   = UserTime::query()->whereKey($timeId)->where('user_id', $user['user_id'])->where('source', 0)->first();
         if (!$time) {
             return $this->error('只能编辑自己发布的活动');
+        }
+
+        // 验证
+        $params = $request->all();
+        $validate = new ContentSecurityService();
+        if (!$validate->validateAll([
+            $params['title'], $params['content'] ?? '', $params['label'] ?? '',
+        ])) {
+            return $this->error('您发布的内容涉及敏感词汇，请不要上传');
         }
 
         try {
@@ -93,6 +103,14 @@ class ActiveController extends Controller
         $participant[] = $user['user_id'];
         if (!$participant) {
             return $this->error('没有参与人');
+        }
+
+        // 验证
+        $validate = new ContentSecurityService();
+        if(!$validate->validateAll([
+            $params['title'], $params['content'] ?? '', $params['label'] ?? '',
+        ])) {
+            return $this->error('您发布的内容涉及敏感词汇，请不要上传');
         }
 
         try {

@@ -31,7 +31,7 @@ class SubMessageService extends BaseService
      * @param string $page
      * @return bool|string|null
      */
-    public function sendSubActiveMessage($openid, $title, $nickname, $area, $time, $page = '/pages/home/main')
+    public function sendSubActiveMessage($openid, $title, $nickname, $area, $time, $page = 'index')
     {
         $params = [
             "touser"      => $openid,
@@ -45,10 +45,10 @@ class SubMessageService extends BaseService
                     'value' => $nickname,
                 ],
                 'thing4' => [
-                    'value' => $area,
+                    'value' => $area ?: '未指定',
                 ],
                 'date2'  => [
-                    'value' => $time,
+                    'value' => $time ?: '未指定',
                 ],
             ],
         ];

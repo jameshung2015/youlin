@@ -32,14 +32,14 @@ class TimeLogResource extends BaseResource
     public static function payActives($userId, $source, $sourceUser, $type)
     {
         if ('话题' === $type || 0 === intval($source) || intval($userId) === intval($sourceUser)) {
-            return 1;
+            return true;
         }
 
         if (!TimeLogResource::$Actives) {
             TimeLogResource::$Actives = ActivePay::query()->where('user_id', $userId)->pluck('active_id')->toArray();
         }
 
-        return in_array($source, TimeLogResource::$Actives) ? 1 : 0;
+        return in_array($source, TimeLogResource::$Actives);
     }
 
 

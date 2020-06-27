@@ -20,7 +20,7 @@ class CustomLogin
         try {
             if (env('APP_DEBUG') && !$authorization) {
                 $data = [
-                    'user_id'    => 10,
+                    'user_id'    => 15,
                     'nickname'   => '昵称',
                     'mobile'     => '手机号',
                     'created_at' => '2019-12-01',

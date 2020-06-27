@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\TimeParty;
 use App\Models\UserSubject;
 use App\Models\UserTime;
+use App\Services\SmallProgram\ContentSecurityService;
 use Illuminate\Http\Request;
 use App\Http\Requests\SubjectRequest;
 use Illuminate\Support\Facades\DB;
@@ -27,6 +28,14 @@ class SubjectController extends Controller
         $time = UserTime::query()->whereKey($params['id'])->where('user_id', $user['user_id'])->where('source', 0)->first();
         if (!$time) {
             return $this->error('只能编辑自己发布的话题');
+        }
+
+        // 验证
+        $validate = new ContentSecurityService();
+        if (!$validate->validateAll([
+            $params['title'], $params['content'] ?? '', $params['label'] ?? '',
+        ])) {
+            return $this->error('您发布的内容涉及敏感词汇，请不要上传');
         }
 
         $time->title = $params['title'];
@@ -52,7 +61,7 @@ class SubjectController extends Controller
                 }
 
                 // 处理新加入的
-                $timeParty = TimeParty::query()->where('time_id', $time->id)->pluck('user_id');
+                $timeParty   = TimeParty::query()->where('time_id', $time->id)->pluck('user_id');
                 $participant = array_diff($participant, $timeParty->all());
                 if ($participant) {
                     $time->timeParty()->createMany(array_map(function ($value) {
@@ -82,6 +91,13 @@ class SubjectController extends Controller
             return $this->error('没有参与人');
         }
 
+        // 验证
+        $validate = new ContentSecurityService();
+        if (!$validate->validateAll([
+            $params['title'], $params['content'] ?? '', $params['label'] ?? ''
+        ])) {
+            return $this->error('您发布的内容涉及敏感词汇，请不要上传');
+        }
 
         try {
             DB::transaction(function () use ($user, $params, $participant) {
